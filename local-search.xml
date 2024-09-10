@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>Python 记录</title>
+    <link href="/posts/20240830215215.html"/>
+    <url>/posts/20240830215215.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="matplotlib中文和负号"><a href="#matplotlib中文和负号" class="headerlink" title="matplotlib中文和负号"></a>matplotlib中文和负号</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br>plt.rcParams[<span class="hljs-string">&#x27;font.family&#x27;</span>] = <span class="hljs-string">&#x27;SimHei&#x27;</span>  <span class="hljs-comment"># 中文</span><br>plt.rcParams[<span class="hljs-string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="hljs-literal">False</span>      <span class="hljs-comment"># 显示负号</span><br>%config InlineBackend.figure_format = <span class="hljs-string">&#x27;retina&#x27;</span> <span class="hljs-comment"># notebook画图更清晰，非notebook不需要</span><br></code></pre></td></tr></table></figure><h2 id="pandas-索引"><a href="#pandas-索引" class="headerlink" title="pandas 索引"></a>pandas 索引</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 基于标签索引</span><br>df.loc[行索引, 列索引]<br>df.loc[行索引]<br><br><span class="hljs-comment"># 基于整数索引</span><br>df.iloc[行索引, 列索引] <br>df.iloc[行索引]<br></code></pre></td></tr></table></figure><p>都适用于布尔数组</p><h2 id="DataFrame转Numpy数组"><a href="#DataFrame转Numpy数组" class="headerlink" title="DataFrame转Numpy数组"></a>DataFrame转Numpy数组</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">d = df.values<br>d = np.numpy(df)<br></code></pre></td></tr></table></figure><h2 id="pandas-apply函数"><a href="#pandas-apply函数" class="headerlink" title="pandas.apply函数"></a>pandas.apply函数</h2><p>参考链接：<a href="https://zhuanlan.zhihu.com/p/340770847">Pandas数据处理(五) — apply() 方法介绍！ - 知乎 (zhihu.com)</a></p><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><br>df.apply(func, axis=<span class="hljs-number">0</span>, raw=<span class="hljs-literal">False</span>, result_type=<span class="hljs-literal">None</span>, args=(), **kwds)<br><br></code></pre></td></tr></table></figure><ul><li><p>func 代表的是传入的函数或 lambda 表达式；</p></li><li><p>axis 参数可提供的有两个，该参数默认为0/列  </p><ul><li>0 或者 index ，表示函数处理的是每一列；</li><li>1 或 columns ，表示处理的是每一行;</li></ul></li><li><p>raw是bool 类型，默认为 False;  </p><ul><li>False ，表示把每一行或列作为 Series 传入函数中；</li><li>True，表示接受的是 ndarray 数据类型；</li></ul></li></ul><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs python"><br><span class="hljs-comment"># 构造df</span><br>df  =pd.DataFrame([[<span class="hljs-number">0</span>,<span class="hljs-number">4</span>,<span class="hljs-number">9</span>]]*<span class="hljs-number">3</span>,columns = [<span class="hljs-string">&#x27;A&#x27;</span>,<span class="hljs-string">&#x27;B&#x27;</span>,<span class="hljs-string">&#x27;A&#x27;</span>])<br><br><span class="hljs-comment"># 求行/列均值</span><br>df.apply(np.mean, axis=<span class="hljs-number">0</span>) <span class="hljs-comment"># axis=1表示对列操作</span><br>df.apply(np.mean, axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># axis=1表示对行操作</span><br><br><span class="hljs-comment"># 对行/列开方</span><br>df.apply(np.sqrt, axis=<span class="hljs-number">0</span>) <span class="hljs-comment"># axis=1表示对列操作</span><br>df.apply(np.sqrt, axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># axis=1表示对行操作</span><br><br><span class="hljs-comment"># 自定义函数（如：求每行的非零元素个数）</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">count_nonzero</span>(<span class="hljs-params">row</span>):<br>    count = <span class="hljs-number">0</span><br>    <span class="hljs-keyword">for</span> r <span class="hljs-keyword">in</span> row:<br>        <span class="hljs-keyword">if</span> r != <span class="hljs-number">0</span>:<br>            count += <span class="hljs-number">1</span><br>    <span class="hljs-keyword">return</span> count<br>df[<span class="hljs-string">&#x27;非零元素个数&#x27;</span>] = df.apply(count_nonzero, axis=<span class="hljs-number">1</span>)<br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Code学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  
+</search>
