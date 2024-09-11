@@ -4,6 +4,58 @@
   
   
   <entry>
+    <title>高等代数概览</title>
+    <link href="/posts/24091017.html"/>
+    <url>/posts/24091017.html</url>
+    
+    <content type="html"><![CDATA[<p>多项式<br>线性方程组、矩阵、行列式、二次型<br>线性空间<br>线性变换、线性映射<br>$\lambda$-矩阵、若尔当标准型<br>欧几里得空间</p><p>研究线性空间的结构及线性映射</p><h1 id="第一章：多项式"><a href="#第一章：多项式" class="headerlink" title="第一章：多项式"></a>第一章：多项式</h1><ul><li>数域$P$（和差积商）、一元多项式环$P[x]$（和差积）</li><li>一元多项式、多项式的相等、零多项式（次数为$-\infty$或无定义）、首项、首项系数、多项式的次数</li><li>带余除法、商式余式、<strong>整除</strong>、整除关系不随系数域的扩大而扩大</li><li>公因式、<strong>最大公因式</strong>、最大公因式存在表示定理、碾转相除法、<strong>互素</strong></li><li>因式分解定理、<strong>不可约多项式</strong>（依赖于系数域）、因式分解及唯一性定理、标准分解式（首1）</li><li><strong>k重因式</strong>、单因式重因式、<strong>微商</strong></li><li>多项式函数、余数定理、k重根、单根重根、代数基本定理、复/实系数多项式因式分解定理</li><li>有理系数多项式、本原多项式、高斯引理、求整系数多项式全部有理根的方法、艾森斯坦判别法</li><li>对称多项式、对称多项式基本定理</li></ul><p>整除 $\iff$ 余式为零<br>整除性质：</p><ol><li>若互相整除，则差一非零常数</li><li>整除的传递性</li><li>整除多个多项式，则整除他们的组合</li></ol><p>组合拳：<br>整除、最大公因式、互素、不可约多项式、k重因式、微商</p><h1 id="第二章：行列式"><a href="#第二章：行列式" class="headerlink" title="第二章：行列式"></a>第二章：行列式</h1><ul><li>排列、逆序数、奇/偶排列、对换</li><li>行列式定义式、行列式性质</li><li>初等行/列变换、阶梯形矩阵、最简行阶梯形</li><li>按行/列展开、余子式、代数余子式、范德蒙德行列式、拉普拉斯定理</li><li>克拉默法则、齐次线性方程组是否有非零解</li></ul><p>代数余子式与余子式的关系</p><script type="math/tex; mode=display">A_{ij}=(-1)^{i+j}M_{ij}</script><h1 id="第三章：线性方程组"><a href="#第三章：线性方程组" class="headerlink" title="第三章：线性方程组"></a>第三章：线性方程组</h1><ul><li>消元法、初等变换、一般解、自由未知量、增广矩阵</li><li>n维向量、定义加法数乘、运算规律、n维向量空间</li><li>线性组合、线性表出、等价、线性相关、线性相关性的定理、极大线性无关组、向量组的秩</li><li>矩阵的行秩/列秩、矩阵的k阶子式、矩阵的秩、三秩相等、 初等行列变换不改变矩阵的秩、矩阵的秩等于阶梯形矩阵中非零行数目、克拉默法则及其逆定理</li><li>线性方程组有解判别定理（系数矩阵与增广矩阵有相同的秩）</li><li>齐次线性方程组的基础解系、导出组、非齐次的解</li></ul><h1 id="第四章：矩阵"><a href="#第四章：矩阵" class="headerlink" title="第四章：矩阵"></a>第四章：矩阵</h1><ul><li>矩阵的运算规律（没有乘法交换律）</li><li>矩阵的乘积的行列式等于行列式的乘积</li><li>可逆、伴随矩阵</li><li>矩阵分块的逆</li><li>初等矩阵、矩阵<strong>等价</strong>、矩阵的<strong>标准形</strong></li><li>可逆矩阵的求法</li></ul><script type="math/tex; mode=display">rank(A+B)\le rank(A)+rank(B)</script><script type="math/tex; mode=display">rank(AB)\le \min rank(A),rank(B)</script><p>分块矩阵求逆</p><ul><li><p>上三角（顺时针）</p><script type="math/tex; mode=display">\begin{pmatrix}A & C  \\0 & B\end{pmatrix}^{-1}=\begin{pmatrix}A^{-1} & -A^{-1}CB^{-1}  \\0 & B^{-1}\end{pmatrix}</script><p>副上对角（逆时针）</p><script type="math/tex; mode=display">\begin{pmatrix}C & A  \\B & 0\end{pmatrix}^{-1}=\begin{pmatrix}0 & B^{-1}  \\A^{-1} & -A^{-1}CB^{-1}\end{pmatrix}</script></li></ul><h1 id="第五章：二次型"><a href="#第五章：二次型" class="headerlink" title="第五章：二次型"></a>第五章：二次型</h1>]]></content>
+    
+    
+    <categories>
+      
+      <category>math</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+      <tag>高等代数</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Excel 操作汇总</title>
+    <link href="/posts/20240831165749.html"/>
+    <url>/posts/20240831165749.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="快速填充"><a href="#快速填充" class="headerlink" title="快速填充"></a>快速填充</h2><p>选中单元格后，鼠标移动到右下角，出现填充柄后，双击填充柄，即可快速自动填充</p><h2 id="跨表格引用数据"><a href="#跨表格引用数据" class="headerlink" title="跨表格引用数据"></a>跨表格引用数据</h2><p><code>Sheet1!C2:IH2</code>或<code>‘供货量’!C2:IH2</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Excel</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Python 记录</title>
     <link href="/posts/20240830215215.html"/>
     <url>/posts/20240830215215.html</url>
@@ -21,6 +73,427 @@
     <tags>
       
       <tag>Python</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>生成文件树</title>
+    <link href="/posts/20240830111336.html"/>
+    <url>/posts/20240830111336.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="生成文件夹的文件树"><a href="#生成文件夹的文件树" class="headerlink" title="生成文件夹的文件树"></a>生成文件夹的文件树</h1><figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs apache"><span class="hljs-attribute">tree</span><span class="hljs-meta"> [指定路径]</span><br></code></pre></td></tr></table></figure><p>或在指定路径下打开终端，输入<br><figure class="highlight dos"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs dos"><span class="hljs-built_in">tree</span><br></code></pre></td></tr></table></figure></p><h1 id="生成所有文件的文件树"><a href="#生成所有文件的文件树" class="headerlink" title="生成所有文件的文件树"></a>生成所有文件的文件树</h1><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">tree [指定路径] /f<br></code></pre></td></tr></table></figure><p>或在指定路径下打开终端，输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">tree /f<br></code></pre></td></tr></table></figure></p><h1 id="保存文件树到txt文件"><a href="#保存文件树到txt文件" class="headerlink" title="保存文件树到txt文件"></a>保存文件树到txt文件</h1><p>在命令后面添加<code>文件名.txt</code><br>如<br><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">tree <span class="hljs-selector-attr">[指定路径1]</span> <span class="hljs-selector-attr">[/f]</span> <span class="hljs-selector-attr">[指定路径2\]</span>文件树<span class="hljs-selector-class">.txt</span><br></code></pre></td></tr></table></figure></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计算机</tag>
+      
+      <tag>文件树</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Obsidian Hexo 工作流</title>
+    <link href="/posts/20240830104749.html"/>
+    <url>/posts/20240830104749.html</url>
+    
+    <content type="html"><![CDATA[<p>文件树<br><figure class="highlight 1c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs 1c">ob仓库根目录<br>├─.obsidian<br>│  ├─plugins<br>│  │  ├─attachment<span class="hljs-punctuation">-</span>management<br>│  │  ├─better<span class="hljs-punctuation">-</span>export<span class="hljs-punctuation">-</span>pdf<br>│  │  └─templater<span class="hljs-punctuation">-</span>obsidian<br>│  ├─snippets<br>│  └─themes<br>│      └─Obsidian Nord<br>├─<span class="hljs-number">0</span>_custom<br><span class="hljs-string">|  ├─ob同步Blog批处理.FFS_BATCH</span><br><span class="hljs-string">|  ├─预览.bat</span><br><span class="hljs-string">|  ├─推送.bat</span><br><span class="hljs-string">|  ├─Blog根目录.lnk</span><br>│  └─模板<br><span class="hljs-string">|    └─Front-matter</span><br>├─Blog public<br>│  ├─博客<br>│  └─软件<br>│      ├─AdobeAcrobat安装教程<br>│      └─Anaconda<span class="hljs-punctuation">+</span>conda常用命令汇总<br>├─drafts<br>├─花园<br>├─数学<br>├─数学建模<br>└─[其他文件夹]<br></code></pre></td></tr></table></figure></p><blockquote><p>使用开源软件freefilesync同步，采用单向的镜像同步<br>将obsidian的<code>Blog public</code>文件夹同步到Hexo的<code>_post</code>文件夹，即<br><code>C:\Users\用户名\Nutstore\1\obBlog\Blog public --&gt; E:\Blog\source\_posts</code></p></blockquote><p>工作流为：<br>写作 —&gt; 移动到<code>Blog public</code> —&gt; ob同步Blog批处理 —&gt; 预览 —&gt; 推送</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Obsidian</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Ubuntu操作汇总</title>
+    <link href="/posts/20240821.html"/>
+    <url>/posts/20240821.html</url>
+    
+    <content type="html"><![CDATA[<h3 id="基础操作"><a href="#基础操作" class="headerlink" title="基础操作"></a>基础操作</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">查看当前路径</span><br>pwd<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">查看所在目录下的文件列表</span><br>ls<br>ls -a # 显示隐藏文件<br>ls -l # 显示详细信息<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">切换路径</span><br>cd [path]<br><br><br><br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计算机</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>wsl2 使用</title>
+    <link href="/posts/20240821.html"/>
+    <url>/posts/20240821.html</url>
+    
+    <content type="html"><![CDATA[<p>操作系统：Windows11</p><p>在任务栏搜索栏中，搜索“功能”，打开“启用或关闭Windows功能”，开启“适用于Windows的Linux子系统”和“虚拟化平台”，开启后会提示重启电脑，重启即可。</p><h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><p>打开终端，安装（默认是<code>Ubuntu</code>）<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --install<br></code></pre></td></tr></table></figure></p><p>Linux输入密码时，是不显示的，输入正确按回车即可</p><h3 id="查看已安装的子系统"><a href="#查看已安装的子系统" class="headerlink" title="查看已安装的子系统"></a>查看已安装的子系统</h3><p>查看已安装的子系统<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --list -v<br></code></pre></td></tr></table></figure><br>可简写为<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl -l -v<br></code></pre></td></tr></table></figure></p><h3 id="查看可安装的发行版"><a href="#查看可安装的发行版" class="headerlink" title="查看可安装的发行版"></a>查看可安装的发行版</h3><p>查看可安装的发行版<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --list --online<br></code></pre></td></tr></table></figure><br>可简写为<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl -l --online<br></code></pre></td></tr></table></figure></p><p>下载指定的发行版（比如<code>kali-linux</code>是可安装的发行版，现安装它作演示）<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --install kali-linux<br></code></pre></td></tr></table></figure></p><h3 id="卸载"><a href="#卸载" class="headerlink" title="卸载"></a>卸载</h3><p>卸载<code>kali-linux</code><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --unregister kali-linux<br></code></pre></td></tr></table></figure></p><p>查看现有子系统<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl -l -v<br></code></pre></td></tr></table></figure></p><h3 id="备份与恢复"><a href="#备份与恢复" class="headerlink" title="备份与恢复"></a>备份与恢复</h3><p>导出<code>Ubuntu</code>子系统至目前所在目录的<code>ubuntu.tar</code><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --export Ubuntu ubuntu.tar<br></code></pre></td></tr></table></figure></p><p>从<code>ubuntu.tar</code>的路径导入，并命名为<code>Ubuntu2</code><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --import Ubuntu2 E:\Desktop\ubuntu.tar<br></code></pre></td></tr></table></figure></p><p>查看现有子系统<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl -l -v<br></code></pre></td></tr></table></figure></p><h3 id="退出子系统"><a href="#退出子系统" class="headerlink" title="退出子系统"></a>退出子系统</h3><p>进入子系统后，退出回到命令行<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">exit<br></code></pre></td></tr></table></figure></p><h3 id="关闭子系统"><a href="#关闭子系统" class="headerlink" title="关闭子系统"></a>关闭子系统</h3><p>关闭所有子系统<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl --shutdown<br></code></pre></td></tr></table></figure></p><p>查看现有子系统状态<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">wsl -l -v<br></code></pre></td></tr></table></figure></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计算机</tag>
+      
+      <tag>wsl2</tag>
+      
+      <tag>Linux</tag>
+      
+      <tag>Ubuntu</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>nvm安装与操作汇总</title>
+    <link href="/posts/20240820.html"/>
+    <url>/posts/20240820.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="Win11安装nvm"><a href="#Win11安装nvm" class="headerlink" title="Win11安装nvm"></a>Win11安装nvm</h2><p>参考链接：<a href="https://segmentfault.com/a/1190000044661290#item-2-4">node.js - 【工具】用nvm管理nodejs版本切换，真香！ - JavaDog程序狗 - SegmentFault 思否</a></p><p>在官网下载nvm安装程序<br>官方github地址<br><a href="https://github.com/coreybutler/nvm-windows/releases/tag/1.1.12">Release v1.1.12 · coreybutler/nvm-windows (github.com)</a></p><p>windows 下载 <code>nvm-setup.exe</code> 或 <code>nvm-setup.zip</code> 都可</p><p>路径配置全默认，就不用配置环境变量了，省事</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash"><span class="hljs-comment"># 查看可用nodejs的稳定版本</span><br>nvm list available<br></code></pre></td></tr></table></figure><blockquote><p>常见问题：<br>出现<code>Could not retrieve https://nodejs.org/dist/index.json.</code> 的解决方案<br>在安装目录 <code>C:\Users\20818\AppData\Roaming\nvm</code> 中打开<code>setting.txt</code>，<br>添加两行（配置镜像）<br><figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs awk">node_mirror: https:<span class="hljs-regexp">//</span>npmmirror.com<span class="hljs-regexp">/mirrors/</span>node/<br>npm_mirror: https:<span class="hljs-regexp">//</span>npmmirror.com<span class="hljs-regexp">/mirrors/</span>npm/<br></code></pre></td></tr></table></figure><br>再运行 <code>nvm list available</code>试试</p></blockquote><h2 id="Ubuntu安装nvm"><a href="#Ubuntu安装nvm" class="headerlink" title="Ubuntu安装nvm"></a>Ubuntu安装nvm</h2><p>执行安装脚本<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">sudo apt install curl <br>curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash <br></code></pre></td></tr></table></figure><br>环境变量生效<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">source ~/.bashrc   <br></code></pre></td></tr></table></figure><br>检验是否安装成功<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">nvm -v<br></code></pre></td></tr></table></figure></p><h3 id="Ubuntu配置nvm镜像"><a href="#Ubuntu配置nvm镜像" class="headerlink" title="Ubuntu配置nvm镜像"></a>Ubuntu配置nvm镜像</h3><p>配置镜像参考：<a href="https://blog.csdn.net/goods_yao/article/details/137854626">使用nvm管理node多版本（安装、卸载nvm，配置环境变量，更换npm淘宝镜像）_node 版本管理-CSDN博客</a></p><p>直接设置镜像源<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">npm config set registry https://registry.npmmirror.com<br></code></pre></td></tr></table></figure></p><p>修改镜像源<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">1. 清空缓存</span><br>npm cache clean --force<br><span class="hljs-meta prompt_"># </span><span class="language-bash">2. 切换新源</span><br>npm config set registry https://registry.npmmirror.com<br><span class="hljs-meta prompt_"># </span><span class="language-bash">3. 检查是否设置成功</span><br>npm config get registry<br></code></pre></td></tr></table></figure></p><h2 id="nvm基本操作"><a href="#nvm基本操作" class="headerlink" title="nvm基本操作"></a>nvm基本操作</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_"># </span><span class="language-bash">查看已安装的nodejs版本(两条命令都可)</span><br>nvm list<br>nvm list installed<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">显示所有可以下载的版本</span><br>nvm list available<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">安装指定nodejs版本</span><br>nvm install 20.16.0<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">安装最新的可用版本</span><br>nvm install node<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">切换为指定版本</span><br>nvm use 20.16.0<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"># </span><span class="language-bash">卸载指定版本</span><br>nvm uninstall 20.16.0<br></code></pre></td></tr></table></figure><p><code>gitbook</code>可以使用<code>12.16.3</code>版本的<code>Node.js</code></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>计算机</tag>
+      
+      <tag>nvm</tag>
+      
+      <tag>nodejs</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VMware问题汇总</title>
+    <link href="/posts/140653a6.html"/>
+    <url>/posts/140653a6.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="VMware-网盘链接"><a href="#VMware-网盘链接" class="headerlink" title="VMware 网盘链接"></a>VMware 网盘链接</h2><p>通过百度网盘分享的文件：vmware<br>链接：<a href="https://pan.baidu.com/s/1sNkrnO-LU_OS6RH0kfDiRA?pwd=d0ut">https://pan.baidu.com/s/1sNkrnO-LU_OS6RH0kfDiRA?pwd=d0ut</a><br>提取码：d0ut </p><h2 id="密匙"><a href="#密匙" class="headerlink" title="密匙"></a>密匙</h2><p>vmware workstation 17 pro密匙最新，选其一即可，不管用就换</p><p>4A4RR-813DK-M81A9-4U35H-06KND</p><p>NZ4RR-FTK5H-H81C1-Q30QH-1V2LA</p><p>JU090-6039P-08409-8J0QH-2YR7F</p><p>4Y09U-AJK97-089Z0-A3054-83KLA</p><p>4C21U-2KK9Q-M8130-4V2QH-CF810</p><p>MC60H-DWHD5-H80U9-6V85M-8280D</p><h2 id="虚拟机卡顿"><a href="#虚拟机卡顿" class="headerlink" title="虚拟机卡顿"></a>虚拟机卡顿</h2><p>参考链接：<a href="https://xiaoyi.vc/vmware-optimization.html">优化 VMware 虚拟机性能，解决运行卡顿 - 小羿 (xiaoyi.vc)</a></p><h2 id="VMware卸载"><a href="#VMware卸载" class="headerlink" title="VMware卸载"></a>VMware卸载</h2><p>参考链接：<br><a href="https://blog.csdn.net/weixin_55118477/article/details/121078890">彻底卸载VMware虚拟机的详细步骤-CSDN博客</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件使用</tag>
+      
+      <tag>Linux</tag>
+      
+      <tag>软件安装</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>博客之Hexo的数学公式渲染</title>
+    <link href="/posts/20240810b.html"/>
+    <url>/posts/20240810b.html</url>
+    
+    <content type="html"><![CDATA[<h3 id="1-更换markdown引擎"><a href="#1-更换markdown引擎" class="headerlink" title="1. 更换markdown引擎"></a>1. 更换markdown引擎</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">npm uninstall hexo-renderer-marked --save<br>npm install hexo-renderer-kramed --save<br></code></pre></td></tr></table></figure><h3 id="2-修改渲染规则"><a href="#2-修改渲染规则" class="headerlink" title="2. 修改渲染规则"></a>2. 修改渲染规则</h3><p>更换后，hexo-renderer-kramed引擎也有语义冲突的问题，解决方法：<br>打开<code>博客根目录--&gt;node_modules\kramed\lib\rules\inline.js</code>，修改如下：</p><p>把第11行的escape变量的值做相应的修改：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,<br>  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/<br></code></pre></td></tr></table></figure></p><p>把第20行的em变量也要做相应的修改：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs bash">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,<br>  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/<br></code></pre></td></tr></table></figure></p><h3 id="3-主题配置文件打开MathJax"><a href="#3-主题配置文件打开MathJax" class="headerlink" title="3. 主题配置文件打开MathJax"></a>3. 主题配置文件打开MathJax</h3><h3 id="4-检查Latex语法错误"><a href="#4-检查Latex语法错误" class="headerlink" title="4. 检查Latex语法错误"></a>4. 检查Latex语法错误</h3><hr><h3 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h3><ul><li><p><a href="https://www.jianshu.com/p/7ab21c7f0674">在Hexo中渲染MathJax数学公式</a></p></li><li><p><a href="https://blog.csdn.net/qq_44846324/article/details/114582328">这次彻底解决在Hexo中渲染MathJax数学公式出现的问题！！！</a></p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Git使用</title>
+    <link href="/posts/20240809a.html"/>
+    <url>/posts/20240809a.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="下载项目"><a href="#下载项目" class="headerlink" title="下载项目"></a>下载项目</h1><h3 id="初始化-Git"><a href="#初始化-Git" class="headerlink" title="初始化.Git"></a>初始化<code>.Git</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git init<br></code></pre></td></tr></table></figure><h3 id="添加库"><a href="#添加库" class="headerlink" title="添加库"></a>添加库</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git remote add origin 源码地址<br></code></pre></td></tr></table></figure><h3 id="将库里的代码下载到本地"><a href="#将库里的代码下载到本地" class="headerlink" title="将库里的代码下载到本地"></a>将库里的代码下载到本地</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git pull origin main<br></code></pre></td></tr></table></figure><h1 id="配置更新"><a href="#配置更新" class="headerlink" title="配置更新"></a>配置更新</h1><h3 id="配置更新地址"><a href="#配置更新地址" class="headerlink" title="配置更新地址"></a>配置更新地址</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git remote add upstream 想要拉取更新的库<br></code></pre></td></tr></table></figure><p>依据此库来对本地代码进行更新</p><h3 id="查看当前仓库的远程仓库地址和原仓库地址"><a href="#查看当前仓库的远程仓库地址和原仓库地址" class="headerlink" title="查看当前仓库的远程仓库地址和原仓库地址"></a>查看当前仓库的远程仓库地址和原仓库地址</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git remote -v<br></code></pre></td></tr></table></figure><h3 id="获取更新"><a href="#获取更新" class="headerlink" title="获取更新"></a>获取更新</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git fetch upstream<br></code></pre></td></tr></table></figure><h3 id="将更新代码和本地代码合并"><a href="#将更新代码和本地代码合并" class="headerlink" title="将更新代码和本地代码合并"></a>将更新代码和本地代码合并</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">git merge upstream/master<br></code></pre></td></tr></table></figure><h1 id="报错"><a href="#报错" class="headerlink" title="报错"></a>报错</h1><h2 id="1"><a href="#1" class="headerlink" title="1"></a>1</h2><p>fatal: unable to access ‘<a href="https://github.com/ver-gas/Mathematical-modeling.git/">https://github.com/ver-gas/Mathematical-modeling.git/</a>‘: Failed to connect to github.com port 443 after 21274 ms: Couldn’t connect to server</p><p>参考链接：<a href="https://blog.csdn.net/qq_43546721/article/details/139506583">完美解决 git 报错 “fatal: unable to access ‘https://github.com/…/.git‘: Recv failure Connection was rese-CSDN博客</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件使用</tag>
+      
+      <tag>Git</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>VSCode之Markdown导出Pdf及样式设置</title>
+    <link href="/posts/20240808a.html"/>
+    <url>/posts/20240808a.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="导出Pdf"><a href="#导出Pdf" class="headerlink" title="导出Pdf"></a>导出Pdf</h2><ol><li>下载并安装 Markdown Pdf 插件</li><li>在md文件中，右键点击：<code>Markdown Pdf: Export(pdf)</code></li></ol><h2 id="样式设置"><a href="#样式设置" class="headerlink" title="样式设置"></a>样式设置</h2><ol><li>在<a href="https://www.typora.net/themes/">Typora主题</a>中选择自己喜欢的主题，并下载<code>css</code>样式文件</li><li>打开VSCode配置文件（设置的右上角）<code>settings.json</code>，添加下面这行代码<figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs json"><span class="hljs-attr">&quot;markdown-pdf.styles&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">[</span><span class="hljs-string">&quot;E:\\05_bib\\misty-light-windows.css&quot;</span><span class="hljs-punctuation">]</span><span class="hljs-punctuation">,</span><br></code></pre></td></tr></table></figure>其中<code>E:\\05_bib\\</code>为我放置样式文件的路径，<code>misty-light-windows.css</code>为我的样式文件</li></ol><h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><ul><li><p><a href="https://blog.csdn.net/qq_34243930/article/details/107815936">VSCode之Markdown导出PDF——使用插件Markdown PDF及css美化</a></p></li><li><p><a href="https://blog.csdn.net/weixin_39278265/article/details/112552773">VSCode Markdown pdf 调整输出格式</a></p></li><li><p><a href="https://www.typora.net/themes/">Typora主题</a></p></li><li><p><a href="https://www.typora.net/11.html">朦胧主题</a></p></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>简历制作</tag>
+      
+      <tag>VSCode</tag>
+      
+      <tag>Markdown</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo的Blog操作汇总</title>
+    <link href="/posts/6615fc99.html"/>
+    <url>/posts/6615fc99.html</url>
+    
+    <content type="html"><![CDATA[<p>本篇文章汇总了<code>hexo</code>写博客的相关操作，方便后续写作。</p><h2 id="写文章"><a href="#写文章" class="headerlink" title="写文章"></a>写文章</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo new PageName<br></code></pre></td></tr></table></figure><p><code>PageName</code>为文章名称，允许中文，不包含后缀名<code>.md</code></p><p>新Page新建后，<code>Front Matter</code>会进行初始化，自动设置<code>title</code>为<code>PageName</code>，可修改；此外，<code>date</code>会自动设置为当前时间，可修改。</p><h2 id="Hexo本地预览页面"><a href="#Hexo本地预览页面" class="headerlink" title="Hexo本地预览页面"></a>Hexo本地预览页面</h2><h3 id="清除缓存并生成页面"><a href="#清除缓存并生成页面" class="headerlink" title="清除缓存并生成页面"></a>清除缓存并生成页面</h3><p>在blog文件夹下，右键点击<code>Open Git Bash Here</code>，输入以下命令</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo generate<br>hexo serve<br></code></pre></td></tr></table></figure><p>或简写如下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo g<br>hexo s<br></code></pre></td></tr></table></figure><h3 id="预览"><a href="#预览" class="headerlink" title="预览"></a>预览</h3><p>预览地址：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">http://localhost/4000/<br></code></pre></td></tr></table></figure><h2 id="推送到GitHub"><a href="#推送到GitHub" class="headerlink" title="推送到GitHub"></a>推送到GitHub</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo generate<br>hexo deploy<br></code></pre></td></tr></table></figure><p>或简写如下</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs bash">hexo clean<br>hexo g<br>hexo d<br></code></pre></td></tr></table></figure><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul><li>在搭建Hexo博客时，若在<code>cmd</code>中使用<code>bash</code>命令，如果出现错误<code>因为在此系统上禁止运行脚本</code>，可在<code>设置-&gt;系统-&gt;开发者选项-&gt;PowerShell</code>中勾选<code>更改执行策略</code></li></ul><h2 id="参考链接"><a href="#参考链接" class="headerlink" title="参考链接"></a>参考链接</h2><p><a href="https://blog.csdn.net/weixin_51545953/article/details/128499341">WSKH0929 CSDN一教程教程</a></p><p><a href="https://www.cnblogs.com/paopaotangzu/p/17991108">Hexo+Github+Fluid搭建个人博客 博客园一教程</a></p><p><a href="https://github.com/fluid-dev/hexo-theme-fluid">hexo-theme-fluid 项目地址</a></p><p><a href="https://hexo.fluid-dev.com/docs/guide/#%E5%85%B3%E4%BA%8E%E6%8C%87%E5%8D%97">Hexo Fluid 用户手册</a></p><p><a href="https://blog.juanertu.com/">二兔Next 教程</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>Hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Windows文件系统架构设计</title>
+    <link href="/posts/e62aa95d.html"/>
+    <url>/posts/e62aa95d.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="架构"><a href="#架构" class="headerlink" title="架构"></a>架构</h1><h3 id="C盘：系统"><a href="#C盘：系统" class="headerlink" title="C盘：系统"></a>C盘：系统</h3><h3 id="D盘：软件"><a href="#D盘：软件" class="headerlink" title="D盘：软件"></a>D盘：软件</h3><h4 id="01-App-daily"><a href="#01-App-daily" class="headerlink" title="01_App_daily"></a>01_App_daily</h4><ul><li>[x] QQ</li><li>[x] 微信</li><li>[x] 搜狗输入法</li><li>[x] 百度网盘</li><li>[x] 哔哩哔哩</li><li>[x] 有道翻译</li><li>[x] 智谱清言（网页应用）</li><li>[x] 腾讯会议</li><li>[x] 飞书</li><li>[x] 语雀</li><li>[x] 酷狗音乐</li><li>[x] 剪映</li><li>[x] 夸克网盘</li><li>[x] 迅雷</li><li><p>[x] 钉钉</p><h4 id="02-App-stand"><a href="#02-App-stand" class="headerlink" title="02_App_stand"></a>02_App_stand</h4></li><li><p>[x] 雷电模拟器</p></li><li>[x] 无界趣连</li><li>[x] OCS</li><li>[x] 未来教育</li><li>[x] 联想下载</li><li><p>[x] Wind</p><h4 id="03-App-tool"><a href="#03-App-tool" class="headerlink" title="03_App_tool"></a>03_App_tool</h4></li><li><p>[x] Bandzip</p></li><li>[x] PixPin</li><li>[x] PotPlayer</li><li>[x] Watt ToolKit</li><li>[x] 360断网急救箱</li><li>[x] 腾讯桌面整理</li><li>[x] PigchaProxy（翻墙VPN）</li><li>[x] EV录屏</li><li>[x] MAA（明日方舟）</li><li><p>[x] 系统优化加速工具</p><h4 id="04-App-tech"><a href="#04-App-tech" class="headerlink" title="04_App_tech"></a>04_App_tech</h4></li><li><p>[x] Anaconoda</p></li><li>[x] VSCode</li><li>[x] Latex</li><li>[x] Texlive</li><li>[x] TexStudio</li><li>[x] excel2latex</li><li>[x] Zotero</li><li>[x] R</li><li>[x] RStudio</li><li>[x] AxMath</li><li>[x] AxGlyph</li><li>[x] MATLAB</li></ul><p><strong>05_GamePlat</strong></p><ul><li>[x] Steam</li></ul><h3 id="E盘：数据"><a href="#E盘：数据" class="headerlink" title="E盘：数据"></a>E盘：数据</h3><h4 id="00-Project"><a href="#00-Project" class="headerlink" title="00_Project"></a>00_Project</h4><p>大创…<br>已完工</p><h4 id="01-Grow"><a href="#01-Grow" class="headerlink" title="01_Grow"></a>01_Grow</h4><p>简历<br>竞赛<br>过往</p><h4 id="02-Collect"><a href="#02-Collect" class="headerlink" title="02_Collect"></a>02_Collect</h4><p>安装包<br>电子书</p><h4 id="02-Collect-tech"><a href="#02-Collect-tech" class="headerlink" title="02_Collect_tech"></a>02_Collect_tech</h4><p>MStemple<br>MATLAB_add<br>数据集<br>数学建模</p><h4 id="03-Backup"><a href="#03-Backup" class="headerlink" title="03_Backup"></a>03_Backup</h4><p>数据备份<br>Win_Backup<br>Win_Mirror<br>Dism++</p><h4 id="视频"><a href="#视频" class="headerlink" title="视频"></a>视频</h4><h4 id="图片"><a href="#图片" class="headerlink" title="图片"></a><strong>图片</strong></h4><h4 id="文档"><a href="#文档" class="headerlink" title="文档"></a>文档</h4><h4 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h4><p>QQ_down（download简写）<br>BaiduNetdisk_down<br>QuarkCloud_down<br>迅雷_down</p><h4 id="音乐"><a href="#音乐" class="headerlink" title="音乐"></a>音乐</h4><h4 id="桌面"><a href="#桌面" class="headerlink" title="桌面"></a>桌面</h4><h3 id="F盘：项目"><a href="#F盘：项目" class="headerlink" title="F盘：项目"></a>F盘：项目</h3><hr>]]></content>
+    
+    
+    <categories>
+      
+      <category>计算机</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>文件系统</tag>
+      
+      <tag>电脑重置</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Adobe Acrobat 安装</title>
+    <link href="/posts/6821829b.html"/>
+    <url>/posts/6821829b.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><h2 id="B站视频："><a href="#B站视频：" class="headerlink" title="B站视频："></a>B站视频：</h2><p><a href="https://b23.tv/610BS5o">最新版Adobe Acrobat Pro DC 2023更新了，有包免费取，PDF编辑更加的稳定，速度更快！强烈推荐更新！-哔哩哔哩</a></p><h2 id="下载链接："><a href="#下载链接：" class="headerlink" title="下载链接："></a>下载链接：</h2><p>最新版 AdobeAcrobat2024.006.20360 PDF编辑软件 永久免费下载</p><p>123云盘链接： <a href="https://www.123pan.com/s/b8Bojv-nnpJA.html">https://www.123pan.com/s/b8Bojv-nnpJA.html</a>    提取码: jDFm </p><p>百度网盘链接：<a href="https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl">https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl</a>     提取码：n3rl</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747149.png" alt="image.png"></p><h1 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a><em>安装步骤</em></h1><h2 id="第一步：安装原应用"><a href="#第一步：安装原应用" class="headerlink" title="第一步：安装原应用"></a><strong>第一步：安装原应用</strong></h2><p>Setup文件夹中，右键单击setup.exe，以管理员身份运行。<br>安装完成后点击关闭（不要立即启动）</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747172.png" alt="image.png"></p><h2 id="第二步：升级"><a href="#第二步：升级" class="headerlink" title="第二步：升级"></a><strong>第二步：升级</strong></h2><p>双击msp文件，后点击“更新”，等待完成</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747262.png" alt="image.png"></p><h2 id="第三步：打补丁"><a href="#第三步：打补丁" class="headerlink" title="第三步：打补丁"></a><strong>第三步：打补丁</strong></h2><p>点击”超级补丁.exe“（若超级补丁.exe被Windows安全中心自动删除，请查看解决方案<a href="#补充：超级补丁.exe被删除解决方案">补充：超级补丁.exe被删除解决方案</a>）</p><p>第一步：点Path，选择“Acrobat”<br>默认安装路径：C:\Program Files\Adobe\Acrobat DC</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747312.png" alt="image.png"></p><p>第二步：点Search<br>第三步：点Patch，等三个都完毕后，就可以退出该补丁程序了（若没补完就被Windows安全中心删了，重新按照打补丁的步骤再重复一遍，直至抢在被删之前Patch完）</p><h2 id="第四步：打开软件，关闭自动更新"><a href="#第四步：打开软件，关闭自动更新" class="headerlink" title="第四步：打开软件，关闭自动更新"></a>第四步：打开软件，关闭自动更新</h2><p>双击桌面上的快捷方式即可打开</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747378.png" alt="image.png"></p><p>第一步：<br>编辑—&gt;首选项—&gt;更新程序—&gt;叉掉自动安装程序的勾<br>第二步：<br>打开控制面板—&gt;搜索服务—&gt;查看本地服务—&gt;找到Adobe Acrobat Update Service—&gt;右键选择属性，把启动类型改为禁用—&gt;点击应用—&gt;点击确认</p><h2 id="补充：超级补丁-exe被删除解决方案"><a href="#补充：超级补丁-exe被删除解决方案" class="headerlink" title="补充：超级补丁.exe被删除解决方案"></a>补充：超级补丁.exe被删除解决方案</h2><p>若”超级补丁.exe“被莫名其妙被Windows安全中心删了，就将其所在文件夹添加到安全中心的排除项，步骤如下</p><p><strong>step1</strong></p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747404.png" alt="image.png"></p><p><strong>step2</strong></p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747437.png" alt="image.png"></p><p><strong>step3 添加排除项</strong></p><p>将AdobeAcrobatProDC2023.006.20360所在的文件夹路径添加到排除项</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747471.png" alt></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>软件</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>软件安装</tag>
+      
+      <tag>Adobe</tag>
+      
+      <tag>Acrobat</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Latex常用命令汇总</title>
+    <link href="/posts/e2cd5a67.html"/>
+    <url>/posts/e2cd5a67.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="导言区"><a href="#导言区" class="headerlink" title="导言区"></a>导言区</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-comment">% 文档类</span><br><span class="hljs-keyword">\documentclass</span>[13pt]&#123;article&#125;<br><span class="hljs-comment">% 中文宏包</span><br><span class="hljs-keyword">\usepackage</span>&#123;ctex&#125;<br><span class="hljs-comment">% 设置页面</span><br><span class="hljs-keyword">\usepackage</span>&#123;geometry&#125;<br><span class="hljs-comment">% 插图片</span><br><span class="hljs-keyword">\usepackage</span>&#123;graphicx&#125;<br><span class="hljs-comment">% 子图并排</span><br><span class="hljs-keyword">\usepackage</span>&#123;subfigure&#125;<br><span class="hljs-comment">% 设置标题 重命名为英文</span><br><span class="hljs-keyword">\renewcommand</span>&#123;<span class="hljs-keyword">\figurename</span>&#125;&#123;Figure&#125;<br><span class="hljs-keyword">\renewcommand</span>&#123;<span class="hljs-keyword">\tablename</span>&#125;&#123;Table&#125;<br><span class="hljs-keyword">\renewcommand</span>&#123;<span class="hljs-keyword">\contentsname</span>&#125;&#123;Contents&#125;<br><span class="hljs-comment">% 设置摘要页缩减 </span><br><span class="hljs-keyword">\usepackage</span>&#123;changepage&#125;<br><span class="hljs-comment">% 便于修改字体</span><br><span class="hljs-keyword">\usepackage</span>&#123;fontspec&#125;<br><span class="hljs-comment">% 设置页眉页脚</span><br><span class="hljs-keyword">\usepackage</span>&#123;fancyhdr&#125;<br><span class="hljs-comment">% 清空页眉页脚</span><br><span class="hljs-keyword">\pagestyle</span>&#123;fancy&#125;<br><span class="hljs-comment">% 设置列表缩进</span><br><span class="hljs-keyword">\usepackage</span>[shortlabels]&#123;enumitem&#125;<br><span class="hljs-comment">% 设置修改默认的section标题大小、粗细</span><br><span class="hljs-keyword">\usepackage</span>&#123;titlesec&#125;<br><span class="hljs-keyword">\titleformat</span>*&#123;<span class="hljs-keyword">\section</span>&#125;&#123;<span class="hljs-keyword">\LARGE</span><span class="hljs-keyword">\bfseries</span>&#125;<br><span class="hljs-keyword">\titleformat</span>*&#123;<span class="hljs-keyword">\subsection</span>&#125;&#123;<span class="hljs-keyword">\Large</span><span class="hljs-keyword">\bfseries</span>&#125;<br><span class="hljs-keyword">\titleformat</span>*&#123;<span class="hljs-keyword">\subsubsection</span>&#125;&#123;<span class="hljs-keyword">\Large</span><span class="hljs-keyword">\bfseries</span>&#125;<br><span class="hljs-comment">% 添加书签,实现pdf跳转功能</span><br><span class="hljs-keyword">\usepackage</span>&#123;hyperref&#125;<br><span class="hljs-keyword">\hypersetup</span>&#123;hidelinks,<br>colorlinks=true,<br>allcolors=black,<br>pdfstartview=Fit,<br>breaklinks=true<br>&#125;<br><span class="hljs-comment">% 使用数学宏包</span><br><span class="hljs-keyword">\usepackage</span>&#123;amsmath&#125;<br><span class="hljs-comment">% 设置表格的列格式</span><br><span class="hljs-keyword">\usepackage</span>&#123;array&#125;<br><span class="hljs-comment">% 三线表宏包</span><br><span class="hljs-keyword">\usepackage</span>&#123;booktabs&#125;<br><span class="hljs-comment">% 设置产考文献不输出默认名</span><br><span class="hljs-keyword">\usepackage</span>&#123;etoolbox&#125;<br><span class="hljs-keyword">\patchcmd</span>&#123;<span class="hljs-keyword">\thebibliography</span>&#125;&#123;<span class="hljs-keyword">\section</span>*&#123;<span class="hljs-keyword">\refname</span>&#125;&#125;&#123;&#125;&#123;&#125;&#123;&#125;<br><span class="hljs-comment">% 引入网站作为参考文献</span><br><span class="hljs-keyword">\usepackage</span>&#123;url&#125;<br><span class="hljs-comment">% 设置等宽的代码字体</span><br><span class="hljs-keyword">\setmonofont</span>&#123;Courier New&#125;<br><span class="hljs-comment">% 颜色</span><br><span class="hljs-keyword">\usepackage</span>&#123;xcolor&#125;<br><span class="hljs-comment">% 代码高亮方案宏包</span><br><span class="hljs-keyword">\usepackage</span>&#123;listings&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPLight&#125;  &#123;HTML&#125; &#123;686868&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPSteel&#125;  &#123;HTML&#125; &#123;888888&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPDark&#125;   &#123;HTML&#125; &#123;262626&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPBlue&#125;   &#123;HTML&#125; &#123;4172A3&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPGreen&#125;  &#123;HTML&#125; &#123;487818&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPBrown&#125;  &#123;HTML&#125; &#123;A07040&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPRed&#125;    &#123;HTML&#125; &#123;AD4D3A&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPViolet&#125; &#123;HTML&#125; &#123;7040A0&#125;<br><span class="hljs-keyword">\definecolor</span>&#123;CPPGray&#125;  &#123;HTML&#125; &#123;B8B8B8&#125;<br></code></pre></td></tr></table></figure><h2 id="字符"><a href="#字符" class="headerlink" title="字符"></a>字符</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-comment">%花体</span><br><span class="hljs-keyword">\mathcal</span>&#123;R&#125;<br><br><span class="hljs-comment">%希腊字母</span><br><span class="hljs-keyword">\varepsilon</span> <span class="hljs-comment">%伊普西龙</span><br></code></pre></td></tr></table></figure><p><img src="https://cdn.nlark.com/yuque/__latex/903be6f861bace4034113178118962e7.svg#card=math&amp;code=%25%E8%8A%B1%E4%BD%93%0A%5Cmathcal%7BR%7D%0A%0A%25%E5%B8%8C%E8%85%8A%E5%AD%97%E6%AF%8D%0A%5Cvarepsilon%20%25&amp;id=OGw7Z" alt></p><h2 id="自定义hypothesis环境"><a href="#自定义hypothesis环境" class="headerlink" title="自定义hypothesis环境"></a>自定义hypothesis环境</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-comment">% 定义新的定理样式</span><br><span class="hljs-keyword">\newtheoremstyle</span>&#123;Hstyle&#125;<span class="hljs-comment">% name</span><br>&#123;3pt&#125;<span class="hljs-comment">% Space above</span><br>&#123;3pt&#125;<span class="hljs-comment">% Space below</span><br>&#123;<span class="hljs-keyword">\itshape</span>&#125;<span class="hljs-comment">% Body font</span><br>&#123;&#125;<span class="hljs-comment">% Indent amount</span><br>&#123;<span class="hljs-keyword">\bfseries</span>&#125;<span class="hljs-comment">% Theorem head font</span><br>&#123;.&#125;<span class="hljs-comment">% Punctuation after theorem head</span><br>&#123; &#125;<span class="hljs-comment">% Space after theorem head</span><br>&#123;<span class="hljs-keyword">\thmname</span>&#123;<span class="hljs-params">#1</span>&#125;<span class="hljs-keyword">\thmnumber</span>&#123;(<span class="hljs-params">#2</span>)&#125;&#125;<br><br><span class="hljs-comment">% 应用新的定理样式</span><br><span class="hljs-keyword">\theoremstyle</span>&#123;Hstyle&#125;<br><span class="hljs-keyword">\newtheorem</span>&#123;hypothesis&#125;&#123;&#125;<br><br><span class="hljs-comment">% 设置自动编号样式</span><br><span class="hljs-keyword">\renewcommand</span>&#123;<span class="hljs-keyword">\thehypothesis</span>&#125;&#123;H<span class="hljs-keyword">\arabic</span>&#123;hypothesis&#125;&#125;<br></code></pre></td></tr></table></figure><h2 id="长度尺寸"><a href="#长度尺寸" class="headerlink" title="长度尺寸"></a>长度尺寸</h2><p>在 LaTeX 中，有很多不同的长度单位和尺寸参数用于排版。以下是一些常用的长度单位和尺寸参数的说明及其使用方法：### 尺寸参数</p><ol><li><p><code>\linewidth</code></p><ul><li>表示当前环境的宽度。例如，在 <code>document</code> 环境中，它表示页面正文的宽度，而在 <code>minipage</code> 或 <code>parbox</code> 环境中，它表示这些框的宽度。</li><li>用途：调整元素的宽度以适应当前环境。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\begin</span>&#123;center&#125;<br><span class="hljs-keyword">\rule</span>&#123;<span class="hljs-keyword">\linewidth</span>&#125;&#123;1mm&#125;<br><span class="hljs-keyword">\end</span>&#123;center&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>\textwidth</code></p><ul><li>表示文本区域的宽度，通常指页面正文的宽度（不包括页边距）。</li><li>用途：定义表格或图片的宽度，以适应页面的文本宽度。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\includegraphics</span>[width=<span class="hljs-keyword">\textwidth</span>]&#123;example-image&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>\textheight</code></p><ul><li>表示文本区域的高度，通常指页面正文的高度（不包括页眉和页脚）。</li><li>用途：设置图片或表格的高度。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\includegraphics</span>[height=<span class="hljs-keyword">\textheight</span>]&#123;example-image&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>\columnwidth</code></p><ul><li>表示当前列的宽度。在单栏文档中，它等于 <code>\textwidth</code>，在双栏文档中，它等于单栏的宽度。</li><li>用途：调整多栏文档中元素的宽度。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\begin</span>&#123;figure*&#125;<br><span class="hljs-keyword">\includegraphics</span>[width=<span class="hljs-keyword">\columnwidth</span>]&#123;example-image&#125;<br><span class="hljs-keyword">\end</span>&#123;figure*&#125;<br></code></pre></td></tr></table></figure><h3 id="长度单位"><a href="#长度单位" class="headerlink" title="长度单位"></a>长度单位</h3></li></ul></li><li><p><code>pt</code><strong>（point）</strong></p><ul><li>点（pt），LaTeX 中最基本的长度单位，1 pt = 1/72.27 英寸。</li><li>用途：设置字体大小、行间距等。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\fontsize</span>&#123;12pt&#125;&#123;14pt&#125;<span class="hljs-keyword">\selectfont</span><br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>cm</code><strong>（centimeter）</strong></p><ul><li>厘米（cm）。</li><li>用途：设置元素的宽度、高度或其他尺寸。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\parindent</span>&#125;&#123;1cm&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>mm</code><strong>（millimeter）</strong></p><ul><li>毫米（mm）。</li><li>用途：设置较小尺寸的元素。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\fboxsep</span>&#125;&#123;3mm&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>in</code><strong>（inch）</strong></p><ul><li>英寸（in）。</li><li>用途：设置元素的宽度、高度或其他尺寸。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\textwidth</span>&#125;&#123;6.5in&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>ex</code></p><ul><li><code>ex</code> 单位是当前字体中小写字母 “x” 的高度。</li><li>用途：与字体大小相关的布局调整。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\parskip</span>&#125;&#123;1ex&#125;<br></code></pre></td></tr></table></figure></li></ul></li><li><p><code>em</code></p><ul><li><code>em</code> 单位是当前字体的宽度，通常等于大写字母 “M” 的宽度。</li><li>用途：与字体大小相关的布局调整。</li><li>示例：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\parindent</span>&#125;&#123;2em&#125;<br></code></pre></td></tr></table></figure><h3 id="使用示例"><a href="#使用示例" class="headerlink" title="使用示例"></a>使用示例</h3>以下是一个综合示例，展示了如何在 LaTeX 中使用这些尺寸参数和单位：<figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\documentclass</span>[12pt]&#123;article&#125;<br><span class="hljs-keyword">\usepackage</span>&#123;graphicx&#125;<br><br><span class="hljs-keyword">\begin</span>&#123;document&#125;<br><br><span class="hljs-comment">% 使用 \linewidth 设置一个宽度为当前环境宽度的水平线</span><br><span class="hljs-keyword">\noindent</span><span class="hljs-keyword">\rule</span>&#123;<span class="hljs-keyword">\linewidth</span>&#125;&#123;1pt&#125;<br><br><span class="hljs-comment">% 插入一个宽度为 \textwidth 的图片</span><br><span class="hljs-keyword">\includegraphics</span>[width=<span class="hljs-keyword">\textwidth</span>]&#123;example-image&#125;<br><br><span class="hljs-comment">% 使用 \textheight 设置一个宽度为当前文本高度一半的图片</span><br><span class="hljs-keyword">\includegraphics</span>[height=0.5<span class="hljs-keyword">\textheight</span>]&#123;example-image&#125;<br><br><span class="hljs-comment">% 使用 \columnwidth 设置一个宽度为当前列宽度的图片</span><br><span class="hljs-keyword">\includegraphics</span>[width=<span class="hljs-keyword">\columnwidth</span>]&#123;example-image&#125;<br><br><span class="hljs-comment">% 设置段落缩进为 1 cm</span><br><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\parindent</span>&#125;&#123;1cm&#125;<br>This is a paragraph with a 1 cm indentation.<br><br><span class="hljs-comment">% 设置段落间距为 1 ex</span><br><span class="hljs-keyword">\setlength</span>&#123;<span class="hljs-keyword">\parskip</span>&#125;&#123;1ex&#125;<br>This is a paragraph with a 1 ex space between paragraphs.<br><br><span class="hljs-keyword">\end</span>&#123;document&#125;<br></code></pre></td></tr></table></figure>通过理解和使用这些尺寸参数和单位，可以更灵活地控制 LaTeX 文档的排版和布局。</li></ul></li></ol><h2 id="表格宽度控制"><a href="#表格宽度控制" class="headerlink" title="表格宽度控制"></a>表格宽度控制</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-comment">%\usepackage&#123;array&#125; 详细控制居中与列宽</span><br><br><span class="hljs-keyword">\begin</span>&#123;table&#125;[htbp]<br><span class="hljs-keyword">\centering</span><br><span class="hljs-keyword">\label</span>&#123;tabel:符号说明&#125;<br><br><span class="hljs-keyword">\begin</span>&#123;tabular&#125;&#123;<br>&gt;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\arraybackslash</span>&#125;p&#123;<span class="hljs-keyword">\textwidth</span>/3&#125;<br>&gt;&#123;<span class="hljs-keyword">\centering</span><span class="hljs-keyword">\arraybackslash</span>&#125;p&#123;<span class="hljs-keyword">\textwidth</span>/3&#125;<br>&#125;<br><span class="hljs-keyword">\toprule</span><br>符号 <span class="hljs-built_in">&amp;</span> 意义 <span class="hljs-keyword">\\</span><br><span class="hljs-keyword">\midrule</span><br><span class="hljs-built_in">$</span>Q<span class="hljs-built_in">_</span>i<span class="hljs-built_in">$</span> <span class="hljs-built_in">&amp;</span> 品类<span class="hljs-built_in">$</span>i<span class="hljs-built_in">$</span>的总销量 <span class="hljs-keyword">\\</span><br><span class="hljs-built_in">$</span>P<span class="hljs-built_in">_</span>I<span class="hljs-built_in">$</span> <span class="hljs-built_in">&amp;</span> 品类<span class="hljs-built_in">$</span>i<span class="hljs-built_in">$</span>的平均销量 <span class="hljs-keyword">\\</span><br><span class="hljs-keyword">\bottomrule</span><br><span class="hljs-keyword">\end</span>&#123;tabular&#125;<br><span class="hljs-keyword">\end</span>&#123;table&#125;<br></code></pre></td></tr></table></figure><h2 id="并排图片"><a href="#并排图片" class="headerlink" title="并排图片"></a>并排图片</h2><figure class="highlight latex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs latex"><span class="hljs-keyword">\begin</span>&#123;figure&#125;[htbp]<br>    <span class="hljs-keyword">\centering</span><br>    <span class="hljs-keyword">\subfigure</span>[图1的标题]&#123;<br>        <span class="hljs-keyword">\includegraphics</span>[width=0.45<span class="hljs-keyword">\textwidth</span>]&#123;example-image-a&#125;<br>        <span class="hljs-keyword">\label</span>&#123;fig:subfig1&#125;<br>    &#125;<br>    <span class="hljs-keyword">\hspace</span>&#123;0.05<span class="hljs-keyword">\textwidth</span>&#125;<br>    <span class="hljs-keyword">\subfigure</span>[图2的标题]&#123;<br>        <span class="hljs-keyword">\includegraphics</span>[width=0.45<span class="hljs-keyword">\textwidth</span>]&#123;example-image-b&#125;<br>        <span class="hljs-keyword">\label</span>&#123;fig:subfig2&#125;<br>    &#125;<br>    <span class="hljs-keyword">\caption</span>&#123;两个图并排显示的示例&#125;<br>    <span class="hljs-keyword">\label</span>&#123;fig:subfigures&#125;<br><span class="hljs-keyword">\end</span>&#123;figure&#125;<br></code></pre></td></tr></table></figure><h2 id="VSCode暗黑预览"><a href="#VSCode暗黑预览" class="headerlink" title="VSCode暗黑预览"></a>VSCode暗黑预览</h2><p>VSCode 的 LaTeX Workshop 插件, 如果要切换为暗色主题，可更改设置:<br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs josn">&quot;latex-workshop.view.pdf.theme&quot;: &quot;dark&quot;,<br>&quot;latex-workshop.view.pdf.invert&quot;: 0.89<br></code></pre></td></tr></table></figure></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>Code学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>Latex</tag>
+      
+      <tag>常用命令</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Anaconda+conda常用命令汇总</title>
+    <link href="/posts/80c16b3c.html"/>
+    <url>/posts/80c16b3c.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="conda命令"><a href="#conda命令" class="headerlink" title="conda命令"></a>conda命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 环境管理 ######################</span></span><br>查看环境配置<br>conda config --show<br><br>查看虚拟环境列表<br>conda env list<br>conda info --env<br>conda info -e<br><br>创建虚拟环境<br>conda create -n env_name python=3.8<br><br>克隆虚拟环境(克隆A，创建B)<br>conda create -n B --clone A<br><br>激活虚拟环境<br>conda activate env_name<br><br>退出虚拟环境<br>conda activate<br>conda deactivate<br><br>删除虚拟环境<br>conda remove --name env_name --all<br><br>删除某环境的某包<br>conda remove --name env_name package_name<br><br>导出环境<br>conda env export --name env_name &gt; env_name.yml<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 包管理 ######################</span></span><br><br>查询当前环境的包<br>conda list<br>查询源中是否有包<br>conda search package_name<br><br>当前环境安装包<br>conda install package_name<br>conda install package_name -c conda_forge(指定源)<br>conda install numpy=0.20.3<br>更新包<br>conda update package_name<br>卸载包<br>conda unstall package_name<br><br>python版本管理<br>更新python指定版本<br>conda install python=3.5<br>更新python最新版本<br>conda update python<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 源管理 ######################</span></span><br><br>查询源(两条命令选其一即可)<br>conda config --get channels<br>conda config --show channels<br><br>追加源<br>conda config --add channels conda-forge<br><br>移除源<br>conda config --remove channels conda-forge<br><br>pip设置源<br><span class="hljs-meta prompt_"># </span><span class="language-bash">设置清华源</span><br>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple<br><br></code></pre></td></tr></table></figure><h2 id="包整理"><a href="#包整理" class="headerlink" title="包整理"></a>包整理</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs shell">必要包<br>os<br>numpy<br>pandas<br>matplotlib<br>scipy<br>seaborn<br>scikit-learn<br>jupyter notebook<br><br>机器/深度学习<br>tensorflow-gpu<br>keras<br><br>命令<br>conda install numpy pandas matplotlib scipy seaborn scikit-learn openpyxl<br>conda install jupyter notebook<br>或<br>pip install numpy pandas matplotlib scipy seaborn scikit-learn openpyxl<br>pip install jupyter notebook<br><br>可能注意<br>conda install openpyxl<br></code></pre></td></tr></table></figure><h2 id="tensorflow-gpu安装"><a href="#tensorflow-gpu安装" class="headerlink" title="tensorflow-gpu安装"></a>tensorflow-gpu安装</h2><p>注意对应关系<br>tensorflow-gpu<br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240910224747147.png" alt="image.png"><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install tenforflow-gpu=2.6.0<br>conda install keras=2.6.0<br></code></pre></td></tr></table></figure></p><h2 id="pytorch安装"><a href="#pytorch安装" class="headerlink" title="pytorch安装"></a>pytorch安装</h2><p>ptorch<br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240910224747240.png" alt="image.png"><br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240910224747284.png" alt="image.png"><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia<br></code></pre></td></tr></table></figure></p><h2 id="cvxpy注意事项"><a href="#cvxpy注意事项" class="headerlink" title="cvxpy注意事项"></a>cvxpy注意事项</h2><p>cvxpy<br>python=3.7.2<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install -c conda-forge lapack<br>conda install -c cvxgrp cvxpy<br></code></pre></td></tr></table></figure></p><h2 id="condarc文件"><a href="#condarc文件" class="headerlink" title=".condarc文件"></a>.condarc文件</h2><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs txt">.condarcchannels:<br>  - [https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/](http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2)<br>  - default<br>envs_dirs:<br>  - D://04_App_tech//Anaconoda//envs<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>Code学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>常用命令</tag>
+      
+      <tag>conda</tag>
+      
+      <tag>Anaconda</tag>
+      
+      <tag>软件使用</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>使用Jekyll + GitHub Pages搭建个人博客[本站已改用Hexo]</title>
+    <link href="/posts/4617152c.html"/>
+    <url>/posts/4617152c.html</url>
+    
+    <content type="html"><![CDATA[<h2 id="Chirpy主题"><a href="#Chirpy主题" class="headerlink" title="Chirpy主题"></a>Chirpy主题</h2><p>Jekyll + GitHub Pages搭建个人博客，跟着链接中的教程开箱即食~~。</p><p>选择Chirpy主题的原因：自动发布、归档、目录、动态</p><p>搭建这个博客借鉴了许多篇文章，相关链接汇总如下：</p><p><a href="https://zzy979.github.io/posts/creating-personal-blog-site/">使用Jekyll + GitHub Pages搭建个人博客</a></p><p><a href="https://jinhanlei.github.io/">jinhanlei</a></p><p>Chirpy主题模板项目:</p><p><a href="https://chirpy.cotes.page/posts/getting-started/">Chirpy - Getting Started</a></p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><ul><li>刚开始修改信息时，注意不要修改<strong>baseurl</strong></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>博客</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>Jekyll</tag>
       
     </tags>
     
