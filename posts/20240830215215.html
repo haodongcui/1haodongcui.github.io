@@ -19,15 +19,15 @@
   <meta name="author" content="HaoDong Cui">
   <meta name="keywords" content="">
   
-    <meta name="description" content="matplotlib中文和负号1234import matplotlib.pyplot as pltplt.rcParams[&#x27;font.family&#x27;] &#x3D; &#x27;SimHei&#x27;  # 中文plt.rcParams[&#x27;axes.unicode_minus&#x27;] &#x3D; False      # 显示负号%config InlineBackend.">
+    <meta name="description" content="matplotlib  中文和负号1234import matplotlib.pyplot as pltplt.rcParams[&#x27;font.family&#x27;] &#x3D; &#x27;SimHei&#x27;  # 中文plt.rcParams[&#x27;axes.unicode_minus&#x27;] &#x3D; False      # 显示负号%config InlineBacken">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python 记录">
+<meta property="og:title" content="Python 学习">
 <meta property="og:url" content="https://haodongcui.github.io/posts/20240830215215.html">
 <meta property="og:site_name" content="Smile の 小屋">
-<meta property="og:description" content="matplotlib中文和负号1234import matplotlib.pyplot as pltplt.rcParams[&#x27;font.family&#x27;] &#x3D; &#x27;SimHei&#x27;  # 中文plt.rcParams[&#x27;axes.unicode_minus&#x27;] &#x3D; False      # 显示负号%config InlineBackend.">
+<meta property="og:description" content="matplotlib  中文和负号1234import matplotlib.pyplot as pltplt.rcParams[&#x27;font.family&#x27;] &#x3D; &#x27;SimHei&#x27;  # 中文plt.rcParams[&#x27;axes.unicode_minus&#x27;] &#x3D; False      # 显示负号%config InlineBacken">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-08-30T13:52:15.000Z">
-<meta property="article:modified_time" content="2024-09-11T06:57:39.311Z">
+<meta property="article:modified_time" content="2024-09-15T07:27:54.629Z">
 <meta property="article:author" content="HaoDong Cui">
 <meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary_large_image">
@@ -36,7 +36,7 @@
     <meta name="referrer" content="no-referrer-when-downgrade">
   
   
-  <title>Python 记录 - Smile の 小屋</title>
+  <title>Python 学习 - Smile の 小屋</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -246,7 +246,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Python 记录"></span>
+            <span id="subtitle" data-typed-text="Python 学习"></span>
           
         </div>
 
@@ -269,7 +269,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          350 字
+          432 字
         
       </span>
     
@@ -280,7 +280,7 @@
         
         
         
-          3 分钟
+          4 分钟
         
       </span>
     
@@ -371,10 +371,10 @@
     
       
       
-        <a href="/posts/20240830215215.html" title="Python 记录"
+        <a href="/posts/20240830215215.html" title="Python 学习"
            class="list-group-item list-group-item-action
            active">
-          <span class="category-post">Python 记录</span>
+          <span class="category-post">Python 学习</span>
         </a>
       
     
@@ -396,12 +396,12 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Python 记录</h1>
+            <h1 id="seo-header">Python 学习</h1>
             
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-11T14:57:39+08:00
+                    本文最后更新于 2024-09-15T15:27:54+08:00
                   
                   
 
@@ -411,11 +411,11 @@
             
               <div class="markdown-body">
                 
-                <h2 id="matplotlib中文和负号"><a href="#matplotlib中文和负号" class="headerlink" title="matplotlib中文和负号"></a>matplotlib中文和负号</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br>plt.rcParams[<span class="hljs-string">&#x27;font.family&#x27;</span>] = <span class="hljs-string">&#x27;SimHei&#x27;</span>  <span class="hljs-comment"># 中文</span><br>plt.rcParams[<span class="hljs-string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="hljs-literal">False</span>      <span class="hljs-comment"># 显示负号</span><br>%config InlineBackend.figure_format = <span class="hljs-string">&#x27;retina&#x27;</span> <span class="hljs-comment"># notebook画图更清晰，非notebook不需要</span><br></code></pre></td></tr></table></figure>
-<h2 id="pandas-索引"><a href="#pandas-索引" class="headerlink" title="pandas 索引"></a>pandas 索引</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 基于标签索引</span><br>df.loc[行索引, 列索引]<br>df.loc[行索引]<br><br><span class="hljs-comment"># 基于整数索引</span><br>df.iloc[行索引, 列索引] <br>df.iloc[行索引]<br></code></pre></td></tr></table></figure>
+                <h2 id="matplotlib-中文和负号"><a href="#matplotlib-中文和负号" class="headerlink" title="matplotlib  中文和负号"></a>matplotlib  中文和负号</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-keyword">import</span> matplotlib.pyplot <span class="hljs-keyword">as</span> plt<br>plt.rcParams[<span class="hljs-string">&#x27;font.family&#x27;</span>] = <span class="hljs-string">&#x27;SimHei&#x27;</span>  <span class="hljs-comment"># 中文</span><br>plt.rcParams[<span class="hljs-string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="hljs-literal">False</span>      <span class="hljs-comment"># 显示负号</span><br>%config InlineBackend.figure_format = <span class="hljs-string">&#x27;retina&#x27;</span> <span class="hljs-comment"># notebook画图更清晰，非notebook不需要</span><br></code></pre></td></tr></table></figure>
+<h2 id="pandas-索引切片"><a href="#pandas-索引切片" class="headerlink" title="pandas  索引切片"></a>pandas  索引切片</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 基于标签索引</span><br>df.loc[行索引, 列索引]<br>df.loc[行索引]<br><br><span class="hljs-comment"># 基于整数索引</span><br>df.iloc[行索引, 列索引] <br>df.iloc[行索引]<br></code></pre></td></tr></table></figure>
 <p>都适用于布尔数组</p>
-<h2 id="DataFrame转Numpy数组"><a href="#DataFrame转Numpy数组" class="headerlink" title="DataFrame转Numpy数组"></a>DataFrame转Numpy数组</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">d = df.values<br>d = np.numpy(df)<br></code></pre></td></tr></table></figure>
-<h2 id="pandas-apply函数"><a href="#pandas-apply函数" class="headerlink" title="pandas.apply函数"></a>pandas.apply函数</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/340770847">Pandas数据处理(五) — apply() 方法介绍！ - 知乎 (zhihu.com)</a></p>
+<h2 id="pandas-DataFrame转Numpy数组"><a href="#pandas-DataFrame转Numpy数组" class="headerlink" title="pandas  DataFrame转Numpy数组"></a>pandas  DataFrame转Numpy数组</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs python">d = df.values<br>d = np.numpy(df)<br></code></pre></td></tr></table></figure>
+<h2 id="pandas-apply自定义函数"><a href="#pandas-apply自定义函数" class="headerlink" title="pandas  apply自定义函数"></a>pandas  apply自定义函数</h2><p>参考链接：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/340770847">Pandas数据处理(五) — apply() 方法介绍！ - 知乎 (zhihu.com)</a></p>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs python"><br>df.apply(func, axis=<span class="hljs-number">0</span>, raw=<span class="hljs-literal">False</span>, result_type=<span class="hljs-literal">None</span>, args=(), **kwds)<br><br></code></pre></td></tr></table></figure>
 <ul>
 <li><p>func 代表的是传入的函数或 lambda 表达式；</p>
@@ -434,6 +434,8 @@
 </li>
 </ul>
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs python"><br><span class="hljs-comment"># 构造df</span><br>df  =pd.DataFrame([[<span class="hljs-number">0</span>,<span class="hljs-number">4</span>,<span class="hljs-number">9</span>]]*<span class="hljs-number">3</span>,columns = [<span class="hljs-string">&#x27;A&#x27;</span>,<span class="hljs-string">&#x27;B&#x27;</span>,<span class="hljs-string">&#x27;A&#x27;</span>])<br><br><span class="hljs-comment"># 求行/列均值</span><br>df.apply(np.mean, axis=<span class="hljs-number">0</span>) <span class="hljs-comment"># axis=1表示对列操作</span><br>df.apply(np.mean, axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># axis=1表示对行操作</span><br><br><span class="hljs-comment"># 对行/列开方</span><br>df.apply(np.sqrt, axis=<span class="hljs-number">0</span>) <span class="hljs-comment"># axis=1表示对列操作</span><br>df.apply(np.sqrt, axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># axis=1表示对行操作</span><br><br><span class="hljs-comment"># 自定义函数（如：求每行的非零元素个数）</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">count_nonzero</span>(<span class="hljs-params">row</span>):<br>    count = <span class="hljs-number">0</span><br>    <span class="hljs-keyword">for</span> r <span class="hljs-keyword">in</span> row:<br>        <span class="hljs-keyword">if</span> r != <span class="hljs-number">0</span>:<br>            count += <span class="hljs-number">1</span><br>    <span class="hljs-keyword">return</span> count<br>df[<span class="hljs-string">&#x27;非零元素个数&#x27;</span>] = df.apply(count_nonzero, axis=<span class="hljs-number">1</span>)<br><br></code></pre></td></tr></table></figure>
+<h2 id="pandas-query筛选函数"><a href="#pandas-query筛选函数" class="headerlink" title="pandas  query筛选函数"></a>pandas  query筛选函数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 普通筛选</span><br>df.query(<span class="hljs-string">&#x27;country==&quot;china&quot;&#x27;</span>) <span class="hljs-comment"># 筛选df中country==china的行</span><br><br><span class="hljs-comment"># 变量筛选</span><br>country_name = <span class="hljs-string">&#x27;china&#x27;</span><br>df.query(<span class="hljs-string">&#x27;country==@country_name&#x27;</span>) <span class="hljs-comment"># 使用@</span><br>df.query(<span class="hljs-string">f&quot;country==&#x27;<span class="hljs-subst">&#123;country_name&#125;</span>&#x27;&quot;</span>) <span class="hljs-comment"># 使用f-string</span><br><br><span class="hljs-comment"># 判断条件</span><br>df.query(<span class="hljs-string">&#x27;year&gt;2001&#x27;</span>)<br></code></pre></td></tr></table></figure>
+<h2 id="pandas-reset-index重置索引"><a href="#pandas-reset-index重置索引" class="headerlink" title="pandas  reset_index重置索引"></a>pandas  reset_index重置索引</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">df.reset_index(inplace=<span class="hljs-literal">True</span>) <span class="hljs-comment"># 重置索引</span><br></code></pre></td></tr></table></figure>
 
                 
               </div>
@@ -479,7 +481,7 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Python 记录</div>
+      <div>Python 学习</div>
       <div>https://haodongcui.github.io/posts/20240830215215.html</div>
     </div>
     <div class="license-meta">
@@ -498,7 +500,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年9月11日</div>
+          <div>2024年9月15日</div>
         </div>
       
       
