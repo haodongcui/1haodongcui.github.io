@@ -13,7 +13,7 @@
     
     <categories>
       
-      <category>math</category>
+      <category>math</category>
       
     </categories>
     
@@ -232,9 +232,9 @@
       
       <tag>计算机</tag>
       
-      <tag>Linux</tag>
-      
       <tag>wsl2</tag>
+      
+      <tag>Linux</tag>
       
       <tag>Ubuntu</tag>
       
@@ -290,11 +290,11 @@
     
     <tags>
       
-      <tag>软件安装</tag>
-      
       <tag>软件使用</tag>
       
       <tag>Linux</tag>
+      
+      <tag>软件安装</tag>
       
     </tags>
     
@@ -346,9 +346,9 @@
     
     <tags>
       
-      <tag>Git</tag>
-      
       <tag>软件使用</tag>
+      
+      <tag>Git</tag>
       
     </tags>
     
@@ -485,9 +485,9 @@
     
     <tags>
       
-      <tag>Latex</tag>
-      
       <tag>常用命令</tag>
+      
+      <tag>Latex</tag>
       
     </tags>
     
@@ -512,13 +512,13 @@
     
     <tags>
       
-      <tag>软件使用</tag>
-      
       <tag>常用命令</tag>
       
       <tag>conda</tag>
       
       <tag>Anaconda</tag>
+      
+      <tag>软件使用</tag>
       
     </tags>
     
