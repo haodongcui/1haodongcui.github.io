@@ -27,7 +27,7 @@
 <meta property="og:description" content="极限证明极限的存在性  $\varepsilon-N$定义及其否定 Cauchy准则 单调有界定理 海涅定理  求极限的方法  等价代换 Taylor公式 Stirling公式 调和级数：对数+欧拉常数   常用变形 指对变换 分子有理化 连续性将极限拿进去   两边夹法则（放缩） L’Hospital法则、Stolz公式 凑积分定义 收敛级数 收敛级数通项趋于0 收敛级数余项趋于0 作差构建级数">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-09-15T07:28:31.000Z">
-<meta property="article:modified_time" content="2024-09-16T14:16:32.606Z">
+<meta property="article:modified_time" content="2024-09-16T14:25:51.370Z">
 <meta property="article:author" content="HaoDong Cui">
 <meta property="article:tag" content="裴礼文">
 <meta property="article:tag" content="数学分析">
@@ -393,7 +393,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-16T22:16:32+08:00
+                    本文最后更新于 2024-09-16T22:25:51+08:00
                   
                   
 
@@ -430,7 +430,7 @@
 <li>收敛级数<ul>
 <li>收敛级数通项趋于0</li>
 <li>收敛级数余项趋于0</li>
-<li>作差构建级数$x<em>{n}=\sum</em>{i=2}^{\infty}(x<em>{i}-x</em>{i-1})+x<em>{1}$，判断$\sum</em>{i=2}^{\infty}|x<em>{i}-x</em>{i-1}|$的收敛性，加之M判别法</li>
+<li>作差构建级数$x_{n}=\sum_{i=2}^{\infty}(x_{i}-x_{i-1})+x_{1}$，判断$\sum_{i=2}^{\infty}|x_{i}-x_{i-1}|$的收敛性，加之M判别法</li>
 </ul>
 </li>
 <li>罕见：$e^{ t }$乘积先求导再积分构造</li>
@@ -682,6 +682,9 @@ n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\t
 
 
 
+
+
+<!-- 自加 mathjax -->
 
 
     
@@ -997,5 +1000,20 @@ n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\t
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

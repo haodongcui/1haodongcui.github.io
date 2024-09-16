@@ -499,7 +499,7 @@ A^{-1} & -A^{-1}CB^{-1}
 <li>线性变换把线性相关的向量组映成线性相关的向量组，可能把线性无关的向量组也映成线性相关的向量组，如零变换</li>
 <li>线性变换有两种运算，每个线性变换满足V中的元素运算，线性变换之间满足自己的线性运算规则</li>
 <li>线性变换的逆变换、线性变化的多项式</li>
-<li>线性变换$\mathscr{A}$在基$\varepsilon<em>{1},\dots,\varepsilon</em>{n}$下的矩阵$A$、相似、投影、</li>
+<li>线性变换$\mathscr{A}$在基$\varepsilon_{1},\dots,\varepsilon_{n}$下的矩阵$A$、相似、投影、</li>
 <li>特征值、特征向量、矩阵$A$的特征多项式$|\lambda E-A|$、特征子空间、展开和因式分解有根与系数的关系、相似矩阵有相同的特征多项式、哈密顿-凯莱定理（沟通了矩阵与行列式）</li>
 <li>对角矩阵、利用线性子空间（特征值）、特征向量刻画是否与对角矩阵相似</li>
 <li>线性变换的值域与核、线性变换的秩与零度、基的合并、线性变换的秩加零度等于线性空间的维度、有限维线性空间中的线性变换是单射等价于是满射</li>
@@ -515,9 +515,9 @@ A^{-1} & -A^{-1}CB^{-1}
 <p>等价包含合同与相似，合同与相似有交集</p>
 <p>特征值、特征向量的求法：</p>
 <ol>
-<li>取一组基$\varepsilon<em>{1},\dots,\varepsilon</em>{n}$，确定线性变换$\mathscr{A}$在基下的矩阵$A$</li>
+<li>取一组基$\varepsilon_{1},\dots,\varepsilon_{n}$，确定线性变换$\mathscr{A}$在基下的矩阵$A$</li>
 <li>求$A$的特征多项式$f(\lambda)=|\lambda E-A|$在数域$P$中的根（特征值）</li>
-<li>对每个根$\lambda<em>{0}$，求$(\lambda</em>{0}E-A)X=0$的基础解系$\eta<em>{1},\dots,\eta</em>{m}$，令$\xi<em>{i}=(\varepsilon</em>{1},\dots,\varepsilon<em>{n})\eta</em>{i},1\le i\le m$，则$\xi<em>{i},\dots,\xi</em>{m}$是$V<em>{\lambda</em>{0}}$的一组基</li>
+<li>对每个根$\lambda_{0}$，求$(\lambda_{0}E-A)X=0$的基础解系$\eta_{1},\dots,\eta_{m}$，令$\xi_{i}=(\varepsilon_{1},\dots,\varepsilon_{n})\eta_{i},1\le i\le m$，则$\xi_{i},\dots,\xi_{m}$是$V_{\lambda_{0}}$的一组基</li>
 </ol>
 <p>矩阵与其特征值的关系</p>
 <script type="math/tex; mode=display">
@@ -753,6 +753,9 @@ A^{-1} & -A^{-1}CB^{-1}
 
 
 
+
+
+<!-- 自加 mathjax -->
 
 
     
@@ -1068,5 +1071,20 @@ A^{-1} & -A^{-1}CB^{-1}
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>

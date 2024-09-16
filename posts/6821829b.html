@@ -454,7 +454,7 @@
 <p>123云盘链接： <a target="_blank" rel="noopener" href="https://www.123pan.com/s/b8Bojv-nnpJA.html">https://www.123pan.com/s/b8Bojv-nnpJA.html</a>    提取码: jDFm </p>
 <p>百度网盘链接：<a target="_blank" rel="noopener" href="https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl">https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl</a>     提取码：n3rl</p>
 <p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747149.png" srcset="/img/base/loading.gif" lazyload alt="image.png"></p>
-<h1 id="安装步骤"><a href="#安装步骤" class="headerlink" title="安装步骤"></a><em>安装步骤</em></h1><h2 id="第一步：安装原应用"><a href="#第一步：安装原应用" class="headerlink" title="第一步：安装原应用"></a><strong>第一步：安装原应用</strong></h2><p>Setup文件夹中，右键单击setup.exe，以管理员身份运行。<br>安装完成后点击关闭（不要立即启动）</p>
+<h1 id="安装步骤"><a href="#安装步骤" class="headerlink" title="_安装步骤_"></a>_安装步骤_</h1><h2 id="第一步：安装原应用"><a href="#第一步：安装原应用" class="headerlink" title="第一步：安装原应用"></a><strong>第一步：安装原应用</strong></h2><p>Setup文件夹中，右键单击setup.exe，以管理员身份运行。<br>安装完成后点击关闭（不要立即启动）</p>
 <p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747172.png" srcset="/img/base/loading.gif" lazyload alt="image.png"></p>
 <h2 id="第二步：升级"><a href="#第二步：升级" class="headerlink" title="第二步：升级"></a><strong>第二步：升级</strong></h2><p>双击msp文件，后点击“更新”，等待完成</p>
 <p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747262.png" srcset="/img/base/loading.gif" lazyload alt="image.png"></p>
@@ -682,6 +682,9 @@
 
 
 
+
+
+<!-- 自加 mathjax -->
 
 
     
@@ -997,5 +1000,20 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
