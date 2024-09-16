@@ -19,15 +19,15 @@
   <meta name="author" content="HaoDong Cui">
   <meta name="keywords" content="">
   
-    <meta name="description" content="证明极限的存在性  $\varepsilon-N$定义及其否定 Cauchy准则 单调有界定理 海涅定理  求极限的方法  等价代换 初等变形凑已有公式 指对变换 特殊代换： Stirling公式 调和级数：对数+欧拉常数   两边夹法则（放缩）   Stirling公式：  n! &#x3D; \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{1">
+    <meta name="description" content="极限证明极限的存在性  $\varepsilon-N$定义及其否定 Cauchy准则 单调有界定理 海涅定理  求极限的方法  等价代换 Taylor公式 Stirling公式 调和级数：对数+欧拉常数   常用变形 指对变换 分子有理化 连续性将极限拿进去   两边夹法则（放缩） L’Hospital法则、Stolz公式 凑积分定义 收敛级数 收敛级数通项趋于0 收敛级数余项趋于0 作差构建级数">
 <meta property="og:type" content="article">
 <meta property="og:title" content="裴礼文小总结">
 <meta property="og:url" content="https://haodongcui.github.io/posts/24091515.html">
 <meta property="og:site_name" content="Smile の 小屋">
-<meta property="og:description" content="证明极限的存在性  $\varepsilon-N$定义及其否定 Cauchy准则 单调有界定理 海涅定理  求极限的方法  等价代换 初等变形凑已有公式 指对变换 特殊代换： Stirling公式 调和级数：对数+欧拉常数   两边夹法则（放缩）   Stirling公式：  n! &#x3D; \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{1">
+<meta property="og:description" content="极限证明极限的存在性  $\varepsilon-N$定义及其否定 Cauchy准则 单调有界定理 海涅定理  求极限的方法  等价代换 Taylor公式 Stirling公式 调和级数：对数+欧拉常数   常用变形 指对变换 分子有理化 连续性将极限拿进去   两边夹法则（放缩） L’Hospital法则、Stolz公式 凑积分定义 收敛级数 收敛级数通项趋于0 收敛级数余项趋于0 作差构建级数">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-09-15T07:28:31.000Z">
-<meta property="article:modified_time" content="2024-09-16T05:40:07.271Z">
+<meta property="article:modified_time" content="2024-09-16T14:15:49.976Z">
 <meta property="article:author" content="HaoDong Cui">
 <meta property="article:tag" content="裴礼文">
 <meta property="article:tag" content="数学分析">
@@ -270,7 +270,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          187 字
+          524 字
         
       </span>
     
@@ -281,7 +281,7 @@
         
         
         
-          2 分钟
+          5 分钟
         
       </span>
     
@@ -336,16 +336,16 @@
     <div class="category row nomargin-x">
       <a class="category-item 
           list-group-item category-item-action col-10 col-md-11 col-xm-11" title="math"
-        id="heading-7e676e9e663beb40fd133f5ee24487c2" role="tab" data-toggle="collapse" href="#collapse-7e676e9e663beb40fd133f5ee24487c2"
+        id="heading-4ef08af27ac3f41beb34f2c8ba6976c1" role="tab" data-toggle="collapse" href="#collapse-4ef08af27ac3f41beb34f2c8ba6976c1"
         aria-expanded="true"
       >
         math
-        <span class="list-group-count">(2)</span>
+        <span class="list-group-count">(1)</span>
         <i class="iconfont icon-arrowright"></i>
       </a>
       
-      <div class="category-collapse collapse show" id="collapse-7e676e9e663beb40fd133f5ee24487c2"
-           role="tabpanel" aria-labelledby="heading-7e676e9e663beb40fd133f5ee24487c2">
+      <div class="category-collapse collapse show" id="collapse-4ef08af27ac3f41beb34f2c8ba6976c1"
+           role="tabpanel" aria-labelledby="heading-4ef08af27ac3f41beb34f2c8ba6976c1">
         
         
           
@@ -358,15 +358,6 @@
            class="list-group-item list-group-item-action
            active">
           <span class="category-post">裴礼文小总结</span>
-        </a>
-      
-    
-      
-      
-        <a href="/posts/24091017.html" title="高等代数概览"
-           class="list-group-item list-group-item-action
-           ">
-          <span class="category-post">高等代数概览</span>
         </a>
       
     
@@ -393,7 +384,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-16T13:40:07+08:00
+                    本文最后更新于 2024-09-16T22:15:49+08:00
                   
                   
 
@@ -403,7 +394,7 @@
             
               <div class="markdown-body">
                 
-                <p>证明极限的存在性</p>
+                <h1 id="极限"><a href="#极限" class="headerlink" title="极限"></a>极限</h1><p>证明极限的存在性</p>
 <ul>
 <li>$\varepsilon-N$定义及其否定</li>
 <li>Cauchy准则</li>
@@ -412,35 +403,74 @@
 </ul>
 <p>求极限的方法</p>
 <ul>
-<li>等价代换</li>
-<li>初等变形凑已有公式</li>
-<li>指对变换</li>
-<li>特殊代换：<ul>
+<li>等价代换<ul>
+<li>Taylor公式</li>
 <li>Stirling公式</li>
 <li>调和级数：对数+欧拉常数</li>
 </ul>
 </li>
-<li>两边夹法则（放缩）</li>
-<li></li>
+<li>常用变形<ul>
+<li>指对变换</li>
+<li>分子有理化</li>
+<li>连续性将极限拿进去</li>
 </ul>
-<p>Stirling公式：</p>
-<script type="math/tex; mode=display">
-n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\theta_{n}\leq 1</script><p>调和级数（欧拉级数）：</p>
-<script type="math/tex; mode=display">
+</li>
+<li>两边夹法则（放缩）</li>
+<li>L’Hospital法则、Stolz公式</li>
+<li>凑积分定义</li>
+<li>收敛级数<ul>
+<li>收敛级数通项趋于0</li>
+<li>收敛级数余项趋于0</li>
+<li>作差构建级数$x<em>{n}=\sum</em>{i=2}^{\infty}(x<em>{i}-x</em>{i-1})+x<em>{1}$，判断$\sum</em>{i=2}^{\infty}|x<em>{i}-x</em>{i-1}|$的收敛性，加之M判别法</li>
+</ul>
+</li>
+<li>罕见：$e^{ t }$乘积先求导再积分构造</li>
+</ul>
+<h2 id="补充"><a href="#补充" class="headerlink" title="补充"></a>补充</h2><h3 id="Stirling公式"><a href="#Stirling公式" class="headerlink" title="Stirling公式"></a>Stirling公式</h3><script type="math/tex; mode=display">
+n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\theta_{n}\leq 1</script><h3 id="调和级数（欧拉级数）"><a href="#调和级数（欧拉级数）" class="headerlink" title="调和级数（欧拉级数）"></a>调和级数（欧拉级数）</h3><script type="math/tex; mode=display">
 \sum_{k=1}^{n} \frac{1}{k} = \ln n + C + \varepsilon_{n}, \quad\lim_{ n \to \infty } \varepsilon_{n}=0</script><p>其中$C$为欧拉常数。</p>
-<p>两边夹法则：</p>
-<ul>
-<li>思路一<ul>
+<h3 id="两边夹法则"><a href="#两边夹法则" class="headerlink" title="两边夹法则"></a>两边夹法则</h3><ul>
+<li>方法一<ul>
 <li>放大：每个都放到最大</li>
 <li>放小：只要最大的一个</li>
 <li>这样可以都向同一个方向放缩</li>
 </ul>
 </li>
-<li>思路二<ul>
+<li>方法二<ul>
 <li>平均值放缩</li>
 <li>调和，几何，算数，平方</li>
 </ul>
 </li>
+<li>方法三<ul>
+<li>反用拉格朗日公式，对$\xi$放缩</li>
+</ul>
+</li>
+</ul>
+<h3 id="常用Taylor公式"><a href="#常用Taylor公式" class="headerlink" title="常用Taylor公式"></a>常用Taylor公式</h3><script type="math/tex; mode=display">
+\begin{align}
+& e^{x}=\sum_{n=0}^{\infty}\frac{x^{n}}{n!}=1+\frac{x}{1!}+\frac{x^{2}}{2!}+\cdots\\ \\
+& \cos x=\sum_{n=0}^{\infty}\frac{(-1)^{n}}{(2n)!}x^{2n}=1-\frac{x^{2}}{2!}+\frac{x^{4}}{4!}+\cdots\\ \\
+& \sin x=\sum_{n=0}^{\infty}\frac{(-1)^{n}}{(2n+1)!}x^{2n+1}=x-\frac{x^{3}}{3!}+\frac{x^{5}}{5!}+\cdots\\ \\
+& \ln(1+x)=\sum_{n=0}^{\infty}(-1)^{n}\frac{x^{n+1}}{n+1}=x-\frac{x^{2}}{2}+\frac{x^{3}}{3}+\cdots\\ \\
+& (1+x)^{\alpha}=\sum_{n=0}^{\infty}C_{\alpha}^{n}x^{n}=1+\frac{\alpha}{1!}x+\frac{\alpha(x+1)}{2!}x^{2}+\cdots\\
+\end{align}</script><h3 id="无穷阶次比较"><a href="#无穷阶次比较" class="headerlink" title="无穷阶次比较"></a>无穷阶次比较</h3><p>令$0&lt;\theta<1,k\in \mathbb{n},a>1$,当 $n\to \infty$时</1,k\in></p>
+<script type="math/tex; mode=display">
+\ln \ln n\ll \ln n\ll n^{\theta}\leq n^{k}\ll a^{n}\ll n!\ll n^{n}</script><h1 id="实数基本定理"><a href="#实数基本定理" class="headerlink" title="实数基本定理"></a>实数基本定理</h1><ol>
+<li>确界原理</li>
+<li>单调有界原理</li>
+<li>Cauchy准则</li>
+<li>致密性定理</li>
+<li>聚点定理</li>
+<li>区间套定理</li>
+<li>有限开覆盖定理</li>
+<li>Dedekind分割定理</li>
+</ol>
+<h1 id="连续性"><a href="#连续性" class="headerlink" title="连续性"></a>连续性</h1><p>证明连续性</p>
+<ul>
+<li>利用定义</li>
+<li>左、右极限与值相等</li>
+<li>反证法使用序列语言</li>
+<li>邻域语言</li>
 </ul>
 
                 
