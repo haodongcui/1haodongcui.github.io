@@ -8,12 +8,12 @@
     <link href="/posts/24091515.html"/>
     <url>/posts/24091515.html</url>
     
-    <content type="html"><![CDATA[<p>证明极限的存在性</p><ul><li>$\varepsilon-N$定义及其否定</li><li>Cauchy准则</li><li>单调有界定理</li><li>海涅定理</li></ul><p>求极限的方法</p><ul><li>等价代换</li><li>初等变形凑已有公式</li><li></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>证明极限的存在性</p><ul><li>$\varepsilon-N$定义及其否定</li><li>Cauchy准则</li><li>单调有界定理</li><li>海涅定理</li></ul><p>求极限的方法</p><ul><li>等价代换</li><li>初等变形凑已有公式</li><li>指对变换</li><li>特殊代换：<ul><li>Stirling公式</li><li>调和级数：对数+欧拉常数</li></ul></li><li>两边夹法则（放缩）</li><li></li></ul><p>Stirling公式：</p><script type="math/tex; mode=display">n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\theta_{n}\leq 1</script><p>调和级数（欧拉级数）：</p><script type="math/tex; mode=display">\sum_{k=1}^{n} \frac{1}{k} = \ln n + C + \varepsilon_{n}, \quad\lim_{ n \to \infty } \varepsilon_{n}=0</script><p>其中$C$为欧拉常数。</p><p>两边夹法则：</p><ul><li>思路一<ul><li>放大：每个都放到最大</li><li>放小：只要最大的一个</li><li>这样可以都向同一个方向放缩</li></ul></li><li>思路二<ul><li>平均值放缩</li><li>调和，几何，算数，平方</li></ul></li></ul>]]></content>
     
     
     <categories>
       
-      <category>math</category>
+      <category>math</category>
       
     </categories>
     
