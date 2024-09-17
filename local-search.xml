@@ -13,7 +13,7 @@
     
     <categories>
       
-      <category>成长录</category>
+      <category>成长录</category>
       
     </categories>
     
@@ -255,9 +255,9 @@
     
     <tags>
       
-      <tag>计算机</tag>
-      
       <tag>Linux</tag>
+      
+      <tag>计算机</tag>
       
       <tag>wsl2</tag>
       
