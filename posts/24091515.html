@@ -27,7 +27,7 @@
 <meta property="og:description" content="极限证明极限的存在性  $\varepsilon-N$定义及其否定 Cauchy准则 单调有界定理 海涅定理  求极限的方法  等价代换 Taylor公式 Stirling公式 调和级数：对数+欧拉常数   常用变形 指对变换 分子有理化 连续性将极限拿进去   两边夹法则（放缩） L’Hospital法则、Stolz公式 凑积分定义 收敛级数 收敛级数通项趋于0 收敛级数余项趋于0 作差构建级数">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-09-15T07:28:31.000Z">
-<meta property="article:modified_time" content="2024-09-18T14:03:28.900Z">
+<meta property="article:modified_time" content="2024-09-18T15:52:08.474Z">
 <meta property="article:author" content="HaoDong Cui">
 <meta property="article:tag" content="裴礼文">
 <meta property="article:tag" content="数学分析">
@@ -270,7 +270,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          581 字
+          619 字
         
       </span>
     
@@ -281,7 +281,7 @@
         
         
         
-          5 分钟
+          6 分钟
         
       </span>
     
@@ -393,7 +393,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-18T22:03:28+08:00
+                    本文最后更新于 2024-09-18T23:52:08+08:00
                   
                   
 
@@ -474,7 +474,7 @@ n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\t
 <li>有限开覆盖定理</li>
 <li>Dedekind分割定理</li>
 </ol>
-<h1 id="连续性"><a href="#连续性" class="headerlink" title="连续性"></a>连续性</h1><p>证明连续性</p>
+<h1 id="连续性"><a href="#连续性" class="headerlink" title="连续性"></a>连续性</h1><p>连续性的证明</p>
 <ul>
 <li>利用定义</li>
 <li>左、右极限与值相等</li>
@@ -487,7 +487,8 @@ n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\t
 \begin{align}
 & f(x) = x^{2} \sin\left( \frac{1}{x} \right) \\ \\
 & f'(x) = 2x\sin\left( \frac{1}{x} \right) - \cos\left( \frac{1}{x} \right)
-\end{align}</script>
+\end{align}</script><p>$f(x)$在0处是可去间断点，$f’(x)$在0处是第二类间断点（在0处左右两侧均没有单侧极限）</p>
+
                 
               </div>
             
@@ -1012,5 +1013,20 @@ n! = \sqrt{ 2\pi n } (\frac{n}{e})^{n}e^{ \frac{\theta_{n}}{12n} },\quad 0\leq\t
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
