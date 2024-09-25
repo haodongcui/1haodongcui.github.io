@@ -27,7 +27,7 @@
 <meta property="og:description" content="matplotlib  中文和负号1234import matplotlib.pyplot as pltplt.rcParams[&#x27;font.family&#x27;] &#x3D; &#x27;SimHei&#x27;  # 中文plt.rcParams[&#x27;axes.unicode_minus&#x27;] &#x3D; False      # 显示负号%config InlineBacken">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2024-08-30T13:52:15.000Z">
-<meta property="article:modified_time" content="2024-09-15T07:27:54.629Z">
+<meta property="article:modified_time" content="2024-09-24T07:44:11.262Z">
 <meta property="article:author" content="HaoDong Cui">
 <meta property="article:tag" content="Python">
 <meta name="twitter:card" content="summary_large_image">
@@ -269,7 +269,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          432 字
+          471 字
         
       </span>
     
@@ -401,7 +401,7 @@
               <p id="updated-time" class="note note-info" style="display: none">
                 
                   
-                    本文最后更新于 2024-09-15T15:27:54+08:00
+                    本文最后更新于 2024-09-24T15:44:11+08:00
                   
                   
 
@@ -436,6 +436,7 @@
 <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs python"><br><span class="hljs-comment"># 构造df</span><br>df  =pd.DataFrame([[<span class="hljs-number">0</span>,<span class="hljs-number">4</span>,<span class="hljs-number">9</span>]]*<span class="hljs-number">3</span>,columns = [<span class="hljs-string">&#x27;A&#x27;</span>,<span class="hljs-string">&#x27;B&#x27;</span>,<span class="hljs-string">&#x27;A&#x27;</span>])<br><br><span class="hljs-comment"># 求行/列均值</span><br>df.apply(np.mean, axis=<span class="hljs-number">0</span>) <span class="hljs-comment"># axis=1表示对列操作</span><br>df.apply(np.mean, axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># axis=1表示对行操作</span><br><br><span class="hljs-comment"># 对行/列开方</span><br>df.apply(np.sqrt, axis=<span class="hljs-number">0</span>) <span class="hljs-comment"># axis=1表示对列操作</span><br>df.apply(np.sqrt, axis=<span class="hljs-number">1</span>) <span class="hljs-comment"># axis=1表示对行操作</span><br><br><span class="hljs-comment"># 自定义函数（如：求每行的非零元素个数）</span><br><span class="hljs-keyword">def</span> <span class="hljs-title function_">count_nonzero</span>(<span class="hljs-params">row</span>):<br>    count = <span class="hljs-number">0</span><br>    <span class="hljs-keyword">for</span> r <span class="hljs-keyword">in</span> row:<br>        <span class="hljs-keyword">if</span> r != <span class="hljs-number">0</span>:<br>            count += <span class="hljs-number">1</span><br>    <span class="hljs-keyword">return</span> count<br>df[<span class="hljs-string">&#x27;非零元素个数&#x27;</span>] = df.apply(count_nonzero, axis=<span class="hljs-number">1</span>)<br><br></code></pre></td></tr></table></figure>
 <h2 id="pandas-query筛选函数"><a href="#pandas-query筛选函数" class="headerlink" title="pandas  query筛选函数"></a>pandas  query筛选函数</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs python"><span class="hljs-comment"># 普通筛选</span><br>df.query(<span class="hljs-string">&#x27;country==&quot;china&quot;&#x27;</span>) <span class="hljs-comment"># 筛选df中country==china的行</span><br><br><span class="hljs-comment"># 变量筛选</span><br>country_name = <span class="hljs-string">&#x27;china&#x27;</span><br>df.query(<span class="hljs-string">&#x27;country==@country_name&#x27;</span>) <span class="hljs-comment"># 使用@</span><br>df.query(<span class="hljs-string">f&quot;country==&#x27;<span class="hljs-subst">&#123;country_name&#125;</span>&#x27;&quot;</span>) <span class="hljs-comment"># 使用f-string</span><br><br><span class="hljs-comment"># 判断条件</span><br>df.query(<span class="hljs-string">&#x27;year&gt;2001&#x27;</span>)<br></code></pre></td></tr></table></figure>
 <h2 id="pandas-reset-index重置索引"><a href="#pandas-reset-index重置索引" class="headerlink" title="pandas  reset_index重置索引"></a>pandas  reset_index重置索引</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">df.reset_index(inplace=<span class="hljs-literal">True</span>) <span class="hljs-comment"># 重置索引</span><br></code></pre></td></tr></table></figure>
+<h2 id="plotly导出图片陷入死循环"><a href="#plotly导出图片陷入死循环" class="headerlink" title="plotly导出图片陷入死循环"></a>plotly导出图片陷入死循环</h2><p>不要安装最新版本的kaleido，使用下面的语句安装<code>0.1</code>版本的<code>kaleido</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs python">pip install --upgrade <span class="hljs-string">&quot;kaleido==0.1.*&quot;</span><br></code></pre></td></tr></table></figure></p>
 
                 
               </div>
@@ -500,7 +501,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2024年9月15日</div>
+          <div>2024年9月24日</div>
         </div>
       
       
@@ -959,5 +960,20 @@
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
