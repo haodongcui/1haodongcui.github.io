@@ -366,11 +366,11 @@
     
     <tags>
       
-      <tag>软件使用</tag>
-      
       <tag>Linux</tag>
       
       <tag>软件安装</tag>
+      
+      <tag>软件使用</tag>
       
     </tags>
     
@@ -422,9 +422,9 @@
     
     <tags>
       
-      <tag>软件使用</tag>
-      
       <tag>Git</tag>
+      
+      <tag>软件使用</tag>
       
     </tags>
     
@@ -582,13 +582,13 @@
     
     <tags>
       
+      <tag>软件使用</tag>
+      
       <tag>常用命令</tag>
       
       <tag>conda</tag>
       
       <tag>Anaconda</tag>
-      
-      <tag>软件使用</tag>
       
     </tags>
     
