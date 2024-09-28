@@ -4,6 +4,33 @@
   
   
   <entry>
+    <title>Mathematica</title>
+    <link href="/posts/24092812.html"/>
+    <url>/posts/24092812.html</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    <categories>
+      
+      <category>编程及专业软件学习</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>math</tag>
+      
+      <tag>Mathematica</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Plotly 学习</title>
     <link href="/posts/24092523.html"/>
     <url>/posts/24092523.html</url>
@@ -13,7 +40,7 @@
     
     <categories>
       
-      <category>Code学习</category>
+      <category>编程及专业软件学习</category>
       
     </categories>
     
@@ -146,7 +173,7 @@
     
     <categories>
       
-      <category>软件</category>
+      <category>软件大杂烩</category>
       
     </categories>
     
@@ -171,7 +198,7 @@
     
     <categories>
       
-      <category>Code学习</category>
+      <category>编程及专业软件学习</category>
       
     </categories>
     
@@ -196,7 +223,7 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机大杂烩</category>
       
     </categories>
     
@@ -252,7 +279,7 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机大杂烩</category>
       
     </categories>
     
@@ -277,7 +304,7 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机大杂烩</category>
       
     </categories>
     
@@ -308,7 +335,7 @@
     
     <categories>
       
-      <category>软件</category>
+      <category>软件大杂烩</category>
       
     </categories>
     
@@ -337,7 +364,7 @@
     
     <categories>
       
-      <category>软件</category>
+      <category>软件大杂烩</category>
       
     </categories>
     
@@ -393,7 +420,7 @@
     
     <categories>
       
-      <category>软件</category>
+      <category>软件大杂烩</category>
       
     </categories>
     
@@ -420,7 +447,7 @@
     
     <categories>
       
-      <category>软件</category>
+      <category>软件大杂烩</category>
       
     </categories>
     
@@ -476,7 +503,7 @@
     
     <categories>
       
-      <category>计算机</category>
+      <category>计算机大杂烩</category>
       
     </categories>
     
@@ -498,12 +525,12 @@
     <link href="/posts/6821829b.html"/>
     <url>/posts/6821829b.html</url>
     
-    <content type="html"><![CDATA[<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><h2 id="B站视频："><a href="#B站视频：" class="headerlink" title="B站视频："></a>B站视频：</h2><p><a href="https://b23.tv/610BS5o">最新版Adobe Acrobat Pro DC 2023更新了，有包免费取，PDF编辑更加的稳定，速度更快！强烈推荐更新！-哔哩哔哩</a></p><h2 id="下载链接："><a href="#下载链接：" class="headerlink" title="下载链接："></a>下载链接：</h2><p>最新版 AdobeAcrobat2024.006.20360 PDF编辑软件 永久免费下载</p><p>123云盘链接： <a href="https://www.123pan.com/s/b8Bojv-nnpJA.html">https://www.123pan.com/s/b8Bojv-nnpJA.html</a>    提取码: jDFm </p><p>百度网盘链接：<a href="https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl">https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl</a>     提取码：n3rl</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747149.png" alt="image.png"></p><h1 id="安装步骤"><a href="#安装步骤" class="headerlink" title="_安装步骤_"></a>_安装步骤_</h1><h2 id="第一步：安装原应用"><a href="#第一步：安装原应用" class="headerlink" title="第一步：安装原应用"></a><strong>第一步：安装原应用</strong></h2><p>Setup文件夹中，右键单击setup.exe，以管理员身份运行。<br>安装完成后点击关闭（不要立即启动）</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747172.png" alt="image.png"></p><h2 id="第二步：升级"><a href="#第二步：升级" class="headerlink" title="第二步：升级"></a><strong>第二步：升级</strong></h2><p>双击msp文件，后点击“更新”，等待完成</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747262.png" alt="image.png"></p><h2 id="第三步：打补丁"><a href="#第三步：打补丁" class="headerlink" title="第三步：打补丁"></a><strong>第三步：打补丁</strong></h2><p>点击”超级补丁.exe“（若超级补丁.exe被Windows安全中心自动删除，请查看解决方案<a href="#补充：超级补丁.exe被删除解决方案">补充：超级补丁.exe被删除解决方案</a>）</p><p>第一步：点Path，选择“Acrobat”<br>默认安装路径：C:\Program Files\Adobe\Acrobat DC</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747312.png" alt="image.png"></p><p>第二步：点Search<br>第三步：点Patch，等三个都完毕后，就可以退出该补丁程序了（若没补完就被Windows安全中心删了，重新按照打补丁的步骤再重复一遍，直至抢在被删之前Patch完）</p><h2 id="第四步：打开软件，关闭自动更新"><a href="#第四步：打开软件，关闭自动更新" class="headerlink" title="第四步：打开软件，关闭自动更新"></a>第四步：打开软件，关闭自动更新</h2><p>双击桌面上的快捷方式即可打开</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747378.png" alt="image.png"></p><p>第一步：<br>编辑—&gt;首选项—&gt;更新程序—&gt;叉掉自动安装程序的勾<br>第二步：<br>打开控制面板—&gt;搜索服务—&gt;查看本地服务—&gt;找到Adobe Acrobat Update Service—&gt;右键选择属性，把启动类型改为禁用—&gt;点击应用—&gt;点击确认</p><h2 id="补充：超级补丁-exe被删除解决方案"><a href="#补充：超级补丁-exe被删除解决方案" class="headerlink" title="补充：超级补丁.exe被删除解决方案"></a>补充：超级补丁.exe被删除解决方案</h2><p>若”超级补丁.exe“被莫名其妙被Windows安全中心删了，就将其所在文件夹添加到安全中心的排除项，步骤如下</p><p><strong>step1</strong></p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747404.png" alt="image.png"></p><p><strong>step2</strong></p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747437.png" alt="image.png"></p><p><strong>step3 添加排除项</strong></p><p>将AdobeAcrobatProDC2023.006.20360所在的文件夹路径添加到排除项</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240910224747471.png" alt></p>]]></content>
+    <content type="html"><![CDATA[<h1 id="安装教程"><a href="#安装教程" class="headerlink" title="安装教程"></a>安装教程</h1><h2 id="B站视频："><a href="#B站视频：" class="headerlink" title="B站视频："></a>B站视频：</h2><p><a href="https://b23.tv/610BS5o">最新版Adobe Acrobat Pro DC 2023更新了，有包免费取，PDF编辑更加的稳定，速度更快！强烈推荐更新！-哔哩哔哩</a></p><h2 id="下载链接："><a href="#下载链接：" class="headerlink" title="下载链接："></a>下载链接：</h2><p>最新版 AdobeAcrobat2024.006.20360 PDF编辑软件 永久免费下载</p><p>123云盘链接： <a href="https://www.123pan.com/s/b8Bojv-nnpJA.html">https://www.123pan.com/s/b8Bojv-nnpJA.html</a>    提取码: jDFm </p><p>百度网盘链接：<a href="https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl">https://pan.baidu.com/s/1vodbfFYg5JWYd27_fcMv-Q?pwd=n3rl</a>     提取码：n3rl</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204426.png" alt="image.png"></p><h1 id="安装步骤"><a href="#安装步骤" class="headerlink" title="_安装步骤_"></a>_安装步骤_</h1><h2 id="第一步：安装原应用"><a href="#第一步：安装原应用" class="headerlink" title="第一步：安装原应用"></a><strong>第一步：安装原应用</strong></h2><p>Setup文件夹中，右键单击setup.exe，以管理员身份运行。<br>安装完成后点击关闭（不要立即启动）</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204440.png" alt="image.png"></p><h2 id="第二步：升级"><a href="#第二步：升级" class="headerlink" title="第二步：升级"></a><strong>第二步：升级</strong></h2><p>双击msp文件，后点击“更新”，等待完成</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204450.png" alt="image.png"></p><h2 id="第三步：打补丁"><a href="#第三步：打补丁" class="headerlink" title="第三步：打补丁"></a><strong>第三步：打补丁</strong></h2><p>点击”超级补丁.exe“（若超级补丁.exe被Windows安全中心自动删除，请查看解决方案<a href="#补充：超级补丁.exe被删除解决方案">补充：超级补丁.exe被删除解决方案</a>）</p><p>第一步：点Path，选择“Acrobat”<br>默认安装路径：C:\Program Files\Adobe\Acrobat DC</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204458.png" alt="image.png"></p><p>第二步：点Search<br>第三步：点Patch，等三个都完毕后，就可以退出该补丁程序了（若没补完就被Windows安全中心删了，重新按照打补丁的步骤再重复一遍，直至抢在被删之前Patch完）</p><h2 id="第四步：打开软件，关闭自动更新"><a href="#第四步：打开软件，关闭自动更新" class="headerlink" title="第四步：打开软件，关闭自动更新"></a>第四步：打开软件，关闭自动更新</h2><p>双击桌面上的快捷方式即可打开</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204467.png" alt="image.png"></p><p>第一步：<br>编辑—&gt;首选项—&gt;更新程序—&gt;叉掉自动安装程序的勾<br>第二步：<br>打开控制面板—&gt;搜索服务—&gt;查看本地服务—&gt;找到Adobe Acrobat Update Service—&gt;右键选择属性，把启动类型改为禁用—&gt;点击应用—&gt;点击确认</p><h2 id="补充：超级补丁-exe被删除解决方案"><a href="#补充：超级补丁-exe被删除解决方案" class="headerlink" title="补充：超级补丁.exe被删除解决方案"></a>补充：超级补丁.exe被删除解决方案</h2><p>若”超级补丁.exe“被莫名其妙被Windows安全中心删了，就将其所在文件夹添加到安全中心的排除项，步骤如下</p><p><strong>step1</strong></p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204476.png" alt="image.png"></p><p><strong>step2</strong></p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204485.png" alt="image.png"></p><p><strong>step3 添加排除项</strong></p><p>将AdobeAcrobatProDC2023.006.20360所在的文件夹路径添加到排除项</p><p><img src="/posts/6821829b/IMG-AdobeAcrobat安装教程-20240928125204498.png" alt></p>]]></content>
     
     
     <categories>
       
-      <category>软件</category>
+      <category>软件大杂烩</category>
       
     </categories>
     
@@ -532,7 +559,7 @@
     
     <categories>
       
-      <category>Code学习</category>
+      <category>编程及专业软件学习</category>
       
     </categories>
     
@@ -554,12 +581,12 @@
     <link href="/posts/80c16b3c.html"/>
     <url>/posts/80c16b3c.html</url>
     
-    <content type="html"><![CDATA[<h2 id="conda命令"><a href="#conda命令" class="headerlink" title="conda命令"></a>conda命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 环境管理 ######################</span></span><br>查看环境配置<br>conda config --show<br><br>查看虚拟环境列表<br>conda env list<br>conda info --env<br>conda info -e<br><br>创建虚拟环境<br>conda create -n env_name python=3.8<br><br>克隆虚拟环境(克隆A，创建B)<br>conda create -n B --clone A<br><br>激活虚拟环境<br>conda activate env_name<br><br>退出虚拟环境<br>conda activate<br>conda deactivate<br><br>删除虚拟环境<br>conda remove --name env_name --all<br><br>删除某环境的某包<br>conda remove --name env_name package_name<br><br>导出环境<br>conda env export --name env_name &gt; env_name.yml<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 包管理 ######################</span></span><br><br>查询当前环境的包<br>conda list<br>查询源中是否有包<br>conda search package_name<br><br>当前环境安装包<br>conda install package_name<br>conda install package_name -c conda_forge(指定源)<br>conda install numpy=0.20.3<br>更新包<br>conda update package_name<br>卸载包<br>conda unstall package_name<br><br>python版本管理<br>更新python指定版本<br>conda install python=3.5<br>更新python最新版本<br>conda update python<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 源管理 ######################</span></span><br><br>查询源(两条命令选其一即可)<br>conda config --get channels<br>conda config --show channels<br><br>追加源<br>conda config --add channels conda-forge<br><br>移除源<br>conda config --remove channels conda-forge<br><br>pip设置源<br><span class="hljs-meta prompt_"># </span><span class="language-bash">设置清华源</span><br>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple<br><br></code></pre></td></tr></table></figure><h2 id="包整理"><a href="#包整理" class="headerlink" title="包整理"></a>包整理</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs shell">必要包<br>os<br>numpy<br>pandas<br>matplotlib<br>scipy<br>seaborn<br>scikit-learn<br>jupyter notebook<br><br>机器/深度学习<br>tensorflow-gpu<br>keras<br><br>命令<br>conda install numpy pandas matplotlib scipy seaborn scikit-learn openpyxl<br>conda install jupyter notebook<br>或<br>pip install numpy pandas matplotlib scipy seaborn scikit-learn openpyxl<br>pip install jupyter notebook<br><br>可能注意<br>conda install openpyxl<br></code></pre></td></tr></table></figure><h2 id="tensorflow-gpu安装"><a href="#tensorflow-gpu安装" class="headerlink" title="tensorflow-gpu安装"></a>tensorflow-gpu安装</h2><p>注意对应关系<br>tensorflow-gpu<br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240926015848827.png" alt="image.png"><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install tenforflow-gpu=2.6.0<br>conda install keras=2.6.0<br></code></pre></td></tr></table></figure></p><h2 id="pytorch安装"><a href="#pytorch安装" class="headerlink" title="pytorch安装"></a>pytorch安装</h2><p>ptorch<br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240926015848843.png" alt="image.png"><br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240926015848857.png" alt="image.png"><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia<br></code></pre></td></tr></table></figure></p><h2 id="cvxpy注意事项"><a href="#cvxpy注意事项" class="headerlink" title="cvxpy注意事项"></a>cvxpy注意事项</h2><p>cvxpy<br>python=3.7.2<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install -c conda-forge lapack<br>conda install -c cvxgrp cvxpy<br></code></pre></td></tr></table></figure></p><h2 id="condarc文件"><a href="#condarc文件" class="headerlink" title=".condarc文件"></a>.condarc文件</h2><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs txt">.condarcchannels:<br>  - [https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/](http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2)<br>  - default<br>envs_dirs:<br>  - D://04_App_tech//Anaconoda//envs<br></code></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<h2 id="conda命令"><a href="#conda命令" class="headerlink" title="conda命令"></a>conda命令</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br></pre></td><td class="code"><pre><code class="hljs shell"><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 环境管理 ######################</span></span><br>查看环境配置<br>conda config --show<br><br>查看虚拟环境列表<br>conda env list<br>conda info --env<br>conda info -e<br><br>创建虚拟环境<br>conda create -n env_name python=3.8<br><br>克隆虚拟环境(克隆A，创建B)<br>conda create -n B --clone A<br><br>激活虚拟环境<br>conda activate env_name<br><br>退出虚拟环境<br>conda activate<br>conda deactivate<br><br>删除虚拟环境<br>conda remove --name env_name --all<br><br>删除某环境的某包<br>conda remove --name env_name package_name<br><br>导出环境<br>conda env export --name env_name &gt; env_name.yml<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 包管理 ######################</span></span><br><br>查询当前环境的包<br>conda list<br>查询源中是否有包<br>conda search package_name<br><br>当前环境安装包<br>conda install package_name<br>conda install package_name -c conda_forge(指定源)<br>conda install numpy=0.20.3<br>更新包<br>conda update package_name<br>卸载包<br>conda unstall package_name<br><br>python版本管理<br>更新python指定版本<br>conda install python=3.5<br>更新python最新版本<br>conda update python<br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_"></span><br><span class="hljs-meta prompt_">#</span><span class="language-bash"><span class="hljs-comment">##################### 源管理 ######################</span></span><br><br>查询源(两条命令选其一即可)<br>conda config --get channels<br>conda config --show channels<br><br>追加源<br>conda config --add channels conda-forge<br><br>移除源<br>conda config --remove channels conda-forge<br><br>pip设置源<br><span class="hljs-meta prompt_"># </span><span class="language-bash">设置清华源</span><br>pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple<br><br></code></pre></td></tr></table></figure><h2 id="包整理"><a href="#包整理" class="headerlink" title="包整理"></a>包整理</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><code class="hljs shell">必要包<br>os<br>numpy<br>pandas<br>matplotlib<br>scipy<br>seaborn<br>scikit-learn<br>jupyter notebook<br><br>机器/深度学习<br>tensorflow-gpu<br>keras<br><br>命令<br>conda install numpy pandas matplotlib scipy seaborn scikit-learn openpyxl<br>conda install jupyter notebook<br>或<br>pip install numpy pandas matplotlib scipy seaborn scikit-learn openpyxl<br>pip install jupyter notebook<br><br>可能注意<br>conda install openpyxl<br></code></pre></td></tr></table></figure><h2 id="tensorflow-gpu安装"><a href="#tensorflow-gpu安装" class="headerlink" title="tensorflow-gpu安装"></a>tensorflow-gpu安装</h2><p>注意对应关系<br>tensorflow-gpu<br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240928125759607.png" alt="image.png"><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install tenforflow-gpu=2.6.0<br>conda install keras=2.6.0<br></code></pre></td></tr></table></figure></p><h2 id="pytorch安装"><a href="#pytorch安装" class="headerlink" title="pytorch安装"></a>pytorch安装</h2><p>ptorch<br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240928125759626.png" alt="image.png"><br><img src="/posts/80c16b3c/IMG-Anaconda+conda常用命令汇总-20240928125759639.png" alt="image.png"><br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia<br></code></pre></td></tr></table></figure></p><h2 id="cvxpy注意事项"><a href="#cvxpy注意事项" class="headerlink" title="cvxpy注意事项"></a>cvxpy注意事项</h2><p>cvxpy<br>python=3.7.2<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs shell">conda install -c conda-forge lapack<br>conda install -c cvxgrp cvxpy<br></code></pre></td></tr></table></figure></p><h2 id="condarc文件"><a href="#condarc文件" class="headerlink" title=".condarc文件"></a>.condarc文件</h2><figure class="highlight txt"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs txt">.condarcchannels:<br>  - [https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/](https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/](http://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge/)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/r)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/pro)<br>  - [http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2](http://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2)<br>  - default<br>envs_dirs:<br>  - D://04_App_tech//Anaconoda//envs<br></code></pre></td></tr></table></figure>]]></content>
     
     
     <categories>
       
-      <category>Code学习</category>
+      <category>编程及专业软件学习</category>
       
     </categories>
     
